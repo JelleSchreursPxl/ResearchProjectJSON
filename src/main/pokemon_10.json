@@ -1,0 +1,215 @@
+[{
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 49
+      },
+      {
+        "name": "Defense",
+        "power": 49
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 62
+      },
+      {
+        "name": "Defense",
+        "power": 63
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 82
+      },
+      {
+        "name": "Defense",
+        "power": 83
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 39
+      },
+      {
+        "name": "Attack",
+        "power": 52
+      },
+      {
+        "name": "Defense",
+        "power": 43
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 58
+      },
+      {
+        "name": "Attack",
+        "power": 64
+      },
+      {
+        "name": "Defense",
+        "power": 58
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 78
+      },
+      {
+        "name": "Attack",
+        "power": 84
+      },
+      {
+        "name": "Defense",
+        "power": 78
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 44
+      },
+      {
+        "name": "Attack",
+        "power": 48
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 59
+      },
+      {
+        "name": "Attack",
+        "power": 63
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 79
+      },
+      {
+        "name": "Attack",
+        "power": 83
+      },
+      {
+        "name": "Defense",
+        "power": 100
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": [
+      "Bug"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 30
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  }
+]

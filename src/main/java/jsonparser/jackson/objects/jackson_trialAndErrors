@@ -1,0 +1,37 @@
+    ObjectMapper reader = new ObjectMapper();
+    try {
+        byte[] bytes = Files.readAllBytes(Paths.get("src/main/pokemon_10.json"));
+        String json = new String(bytes);
+
+        JsonNode node = reader.readTree(json);
+        if(node.isArray()){
+            for(JsonNode jsonNode : node){
+                Pokemon pokemon = reader.treeToValue(jsonNode, Pokemon.class);
+                System.out.println(pokemon.getName());
+                System.out.println(jsonNode);
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+
+
+    ObjectMapper mapper=new ObjectMapper();
+    try {
+        BufferedReader br = new BufferedReader(
+        new FileReader("src/main/pokemon_10.json"));
+        Pokemon pokemon = mapper.readValue(br, Pokemon.class);
+        System.out.println(pokemon.getName());
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+
+    ObjectMapper reader = new ObjectMapper();
+    reader.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    try {
+        Pokemon pokemon = reader.readValue(new FileInputStream("src/main/pokemon_10.json"), Pokemon.class );
+        System.out.println(pokemon.getName());
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+

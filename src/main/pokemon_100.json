@@ -1,0 +1,2149 @@
+[{
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 49
+      },
+      {
+        "name": "Defense",
+        "power": 49
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 62
+      },
+      {
+        "name": "Defense",
+        "power": 63
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 82
+      },
+      {
+        "name": "Defense",
+        "power": 83
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 39
+      },
+      {
+        "name": "Attack",
+        "power": 52
+      },
+      {
+        "name": "Defense",
+        "power": 43
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 58
+      },
+      {
+        "name": "Attack",
+        "power": 64
+      },
+      {
+        "name": "Defense",
+        "power": 58
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 78
+      },
+      {
+        "name": "Attack",
+        "power": 84
+      },
+      {
+        "name": "Defense",
+        "power": 78
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 44
+      },
+      {
+        "name": "Attack",
+        "power": 48
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 59
+      },
+      {
+        "name": "Attack",
+        "power": 63
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 79
+      },
+      {
+        "name": "Attack",
+        "power": 83
+      },
+      {
+        "name": "Defense",
+        "power": 100
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "types": [
+      "Bug"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 30
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "types": [
+      "Bug"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 20
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 35
+      },
+      {
+        "name": "Defense",
+        "power": 30
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 50
+      },
+      {
+        "name": "Defense",
+        "power": 25
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 90
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 40
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 63
+      },
+      {
+        "name": "Attack",
+        "power": 60
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 83
+      },
+      {
+        "name": "Attack",
+        "power": 85
+      },
+      {
+        "name": "Defense",
+        "power": 73
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "types": [
+      "Normal"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 30
+      },
+      {
+        "name": "Attack",
+        "power": 56
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Raticate",
+    "types": [
+      "Normal"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 81
+      },
+      {
+        "name": "Defense",
+        "power": 62
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 60
+      },
+      {
+        "name": "Defense",
+        "power": 31
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 90
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 60
+      },
+      {
+        "name": "Defense",
+        "power": 44
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 95
+      },
+      {
+        "name": "Defense",
+        "power": 69
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": [
+      "Electric"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 55
+      },
+      {
+        "name": "Defense",
+        "power": 40
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "types": [
+      "Electric"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 90
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "types": [
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 75
+      },
+      {
+        "name": "Defense",
+        "power": 85
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "types": [
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 75
+      },
+      {
+        "name": "Attack",
+        "power": 100
+      },
+      {
+        "name": "Defense",
+        "power": 110
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Nidoran♀",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 47
+      },
+      {
+        "name": "Defense",
+        "power": 52
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 70
+      },
+      {
+        "name": "Attack",
+        "power": 62
+      },
+      {
+        "name": "Defense",
+        "power": 67
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 92
+      },
+      {
+        "name": "Defense",
+        "power": 87
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Nidoran♂",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 56
+      },
+      {
+        "name": "Attack",
+        "power": 47
+      },
+      {
+        "name": "Defense",
+        "power": 49
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 73
+      },
+      {
+        "name": "Attack",
+        "power": 61
+      },
+      {
+        "name": "Defense",
+        "power": 57
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 81
+      },
+      {
+        "name": "Attack",
+        "power": 102
+      },
+      {
+        "name": "Defense",
+        "power": 78
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "types": [
+      "Fairy"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 70
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 48
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "types": [
+      "Fairy"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 95
+      },
+      {
+        "name": "Attack",
+        "power": 70
+      },
+      {
+        "name": "Defense",
+        "power": 73
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 38
+      },
+      {
+        "name": "Attack",
+        "power": 41
+      },
+      {
+        "name": "Defense",
+        "power": 40
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 73
+      },
+      {
+        "name": "Attack",
+        "power": 76
+      },
+      {
+        "name": "Defense",
+        "power": 75
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 115
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 20
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 140
+      },
+      {
+        "name": "Attack",
+        "power": 70
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Zubat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Golbat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 75
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Oddish",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 45
+      },
+      {
+        "name": "Attack",
+        "power": 50
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Gloom",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Vileplume",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 70
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 85
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Paras",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 70
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Parasect",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 95
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Venonat",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 55
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Venomoth",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 70
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 60
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Diglett",
+    "types": [
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 10
+      },
+      {
+        "name": "Attack",
+        "power": 55
+      },
+      {
+        "name": "Defense",
+        "power": 25
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Dugtrio",
+    "types": [
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 100
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Meowth",
+    "types": [
+      "Normal"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 35
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Persian",
+    "types": [
+      "Normal"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 75
+      },
+      {
+        "name": "Defense",
+        "power": 60
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Psyduck",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 52
+      },
+      {
+        "name": "Defense",
+        "power": 48
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Golduck",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 82
+      },
+      {
+        "name": "Defense",
+        "power": 78
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Mankey",
+    "types": [
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 51
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Primeape",
+    "types": [
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 105
+      },
+      {
+        "name": "Defense",
+        "power": 60
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Growlithe",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 70
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Arcanine",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 110
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Poliwag",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 50
+      },
+      {
+        "name": "Defense",
+        "power": 40
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Poliwhirl",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Poliwrath",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 95
+      },
+      {
+        "name": "Defense",
+        "power": 95
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "types": [
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 25
+      },
+      {
+        "name": "Attack",
+        "power": 20
+      },
+      {
+        "name": "Defense",
+        "power": 15
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 35
+      },
+      {
+        "name": "Defense",
+        "power": 30
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 50
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "types": [
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 70
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Machoke",
+    "types": [
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 100
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Machamp",
+    "types": [
+      "Fighting"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 130
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Bellsprout",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 75
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Weepinbell",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 90
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 105
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Tentacool",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 40
+      },
+      {
+        "name": "Defense",
+        "power": 35
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Tentacruel",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 75
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 100
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 95
+      },
+      {
+        "name": "Defense",
+        "power": 115
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 120
+      },
+      {
+        "name": "Defense",
+        "power": 130
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ponyta",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 85
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Rapidash",
+    "types": [
+      "Fire"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 100
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Slowpoke",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 65
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 95
+      },
+      {
+        "name": "Attack",
+        "power": 75
+      },
+      {
+        "name": "Defense",
+        "power": 110
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Magnemite",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 25
+      },
+      {
+        "name": "Attack",
+        "power": 35
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Magneton",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 60
+      },
+      {
+        "name": "Defense",
+        "power": 95
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Farfetch'd",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 52
+      },
+      {
+        "name": "Attack",
+        "power": 90
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Doduo",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 85
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Dodrio",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 110
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Seel",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 65
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 55
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Dewgong",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 90
+      },
+      {
+        "name": "Attack",
+        "power": 70
+      },
+      {
+        "name": "Defense",
+        "power": 80
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Grimer",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 80
+      },
+      {
+        "name": "Attack",
+        "power": 80
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Muk",
+    "types": [
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 105
+      },
+      {
+        "name": "Attack",
+        "power": 105
+      },
+      {
+        "name": "Defense",
+        "power": 75
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Shellder",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 30
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 100
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Cloyster",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 50
+      },
+      {
+        "name": "Attack",
+        "power": 95
+      },
+      {
+        "name": "Defense",
+        "power": 180
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 30
+      },
+      {
+        "name": "Attack",
+        "power": 35
+      },
+      {
+        "name": "Defense",
+        "power": 30
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 40
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 65
+      },
+      {
+        "name": "Defense",
+        "power": 60
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 35
+      },
+      {
+        "name": "Attack",
+        "power": 45
+      },
+      {
+        "name": "Defense",
+        "power": 160
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Drowzee",
+    "types": [
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 60
+      },
+      {
+        "name": "Attack",
+        "power": 48
+      },
+      {
+        "name": "Defense",
+        "power": 45
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Hypno",
+    "types": [
+      "Psychic"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 85
+      },
+      {
+        "name": "Attack",
+        "power": 73
+      },
+      {
+        "name": "Defense",
+        "power": 70
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Krabby",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 30
+      },
+      {
+        "name": "Attack",
+        "power": 105
+      },
+      {
+        "name": "Defense",
+        "power": 95
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Kingler",
+    "types": [
+      "Water"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 55
+      },
+      {
+        "name": "Attack",
+        "power": 130
+      },
+      {
+        "name": "Defense",
+        "power": 115
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "types": [
+      "Electric"
+    ],
+    "base": [
+      {
+        "name": "HP",
+        "power": 40
+      },
+      {
+        "name": "Attack",
+        "power": 30
+      },
+      {
+        "name": "Defense",
+        "power": 50
+      }
+    ]
+  }
+]
