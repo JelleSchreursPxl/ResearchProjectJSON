@@ -1,141 +1,141 @@
 [ {
   "id" : 1,
-  "name" : "castform",
-  "types" : [ "fairy" ],
+  "name" : "aerodactyl",
+  "types" : [ "electric" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 160
+    "power" : 182
   }, {
     "name" : "Attack",
-    "power" : 45
+    "power" : 30
   }, {
     "name" : "Defense",
-    "power" : 29
+    "power" : 144
   } ]
 }, {
   "id" : 2,
-  "name" : "chingling",
-  "types" : [ "ghost" ],
+  "name" : "zygarde",
+  "types" : [ "dark" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 196
+    "power" : 127
   }, {
     "name" : "Attack",
-    "power" : 33
+    "power" : 93
   }, {
     "name" : "Defense",
-    "power" : 142
+    "power" : 57
   } ]
 }, {
   "id" : 3,
-  "name" : "foongus",
-  "types" : [ "bug", "grass" ],
+  "name" : "pyroar",
+  "types" : [ "fire", "ground" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 59
+    "power" : 57
   }, {
     "name" : "Attack",
-    "power" : 29
+    "power" : 161
   }, {
     "name" : "Defense",
-    "power" : 97
+    "power" : 91
   } ]
 }, {
   "id" : 4,
-  "name" : "electrode",
+  "name" : "goldeen",
   "types" : [ "steel" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 113
+    "power" : 119
   }, {
     "name" : "Attack",
-    "power" : 115
+    "power" : 93
   }, {
     "name" : "Defense",
-    "power" : 19
+    "power" : 149
   } ]
 }, {
   "id" : 5,
-  "name" : "oshawott",
-  "types" : [ "fairy" ],
+  "name" : "foongus",
+  "types" : [ "ground" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 36
+    "power" : 153
   }, {
     "name" : "Attack",
-    "power" : 63
-  }, {
-    "name" : "Defense",
-    "power" : 143
-  } ]
-}, {
-  "id" : 6,
-  "name" : "ferroseed",
-  "types" : [ "ice", "grass" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 181
-  }, {
-    "name" : "Attack",
-    "power" : 184
+    "power" : 89
   }, {
     "name" : "Defense",
     "power" : 75
   } ]
 }, {
-  "id" : 7,
-  "name" : "vespiquen",
-  "types" : [ "fighting" ],
+  "id" : 6,
+  "name" : "suicune",
+  "types" : [ "poison", "water" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 176
+    "power" : 26
   }, {
     "name" : "Attack",
-    "power" : 13
+    "power" : 45
   }, {
     "name" : "Defense",
-    "power" : 170
+    "power" : 168
+  } ]
+}, {
+  "id" : 7,
+  "name" : "umbreon",
+  "types" : [ "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 126
+  }, {
+    "name" : "Attack",
+    "power" : 61
+  }, {
+    "name" : "Defense",
+    "power" : 50
   } ]
 }, {
   "id" : 8,
-  "name" : "nidoking",
-  "types" : [ "normal" ],
+  "name" : "aromatisse",
+  "types" : [ "fairy" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 93
+    "power" : 13
   }, {
     "name" : "Attack",
-    "power" : 122
+    "power" : 124
   }, {
     "name" : "Defense",
-    "power" : 183
+    "power" : 28
   } ]
 }, {
   "id" : 9,
-  "name" : "hakamoo",
-  "types" : [ "ice", "electric" ],
+  "name" : "dewpider",
+  "types" : [ "dragon", "dark" ],
   "base" : [ {
     "name" : "HP",
     "power" : 199
   }, {
     "name" : "Attack",
-    "power" : 55
+    "power" : 100
   }, {
     "name" : "Defense",
-    "power" : 0
+    "power" : 166
   } ]
 }, {
   "id" : 10,
-  "name" : "magcargo",
+  "name" : "lombre",
   "types" : [ "grass" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 90
+    "power" : 30
   }, {
     "name" : "Attack",
-    "power" : 123
+    "power" : 108
   }, {
     "name" : "Defense",
-    "power" : 26
+    "power" : 173
   } ]
 } ]

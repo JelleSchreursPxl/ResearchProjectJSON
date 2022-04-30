@@ -1,595 +1,917 @@
 [ {
   "id" : 1,
-  "name" : "electivire",
-  "types" : [ "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 51
-  }, {
-    "name" : "Attack",
-    "power" : 97
-  }, {
-    "name" : "Defense",
-    "power" : 153
-  } ]
-}, {
-  "id" : 2,
-  "name" : "ferreligatr",
-  "types" : [ "dark" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 157
-  }, {
-    "name" : "Attack",
-    "power" : 41
-  }, {
-    "name" : "Defense",
-    "power" : 142
-  } ]
-}, {
-  "id" : 3,
-  "name" : "eelektrik",
-  "types" : [ "flying", "electric" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 145
-  }, {
-    "name" : "Attack",
-    "power" : 62
-  }, {
-    "name" : "Defense",
-    "power" : 26
-  } ]
-}, {
-  "id" : 4,
-  "name" : "hypno",
-  "types" : [ "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 102
-  }, {
-    "name" : "Attack",
-    "power" : 69
-  }, {
-    "name" : "Defense",
-    "power" : 143
-  } ]
-}, {
-  "id" : 5,
-  "name" : "yveltal",
-  "types" : [ "dragon" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 16
-  }, {
-    "name" : "Attack",
-    "power" : 48
-  }, {
-    "name" : "Defense",
-    "power" : 176
-  } ]
-}, {
-  "id" : 6,
-  "name" : "oshawott",
-  "types" : [ "psychic", "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 37
-  }, {
-    "name" : "Attack",
-    "power" : 33
-  }, {
-    "name" : "Defense",
-    "power" : 118
-  } ]
-}, {
-  "id" : 7,
-  "name" : "altaria",
-  "types" : [ "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 6
-  }, {
-    "name" : "Attack",
-    "power" : 82
-  }, {
-    "name" : "Defense",
-    "power" : 91
-  } ]
-}, {
-  "id" : 8,
-  "name" : "froakie",
-  "types" : [ "dark" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 148
-  }, {
-    "name" : "Attack",
-    "power" : 139
-  }, {
-    "name" : "Defense",
-    "power" : 60
-  } ]
-}, {
-  "id" : 9,
-  "name" : "pinsir",
-  "types" : [ "flying", "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 58
-  }, {
-    "name" : "Attack",
-    "power" : 111
-  }, {
-    "name" : "Defense",
-    "power" : 99
-  } ]
-}, {
-  "id" : 10,
-  "name" : "sandshrew",
-  "types" : [ "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 104
-  }, {
-    "name" : "Attack",
-    "power" : 6
-  }, {
-    "name" : "Defense",
-    "power" : 123
-  } ]
-}, {
-  "id" : 11,
-  "name" : "lucario",
-  "types" : [ "normal" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 93
-  }, {
-    "name" : "Attack",
-    "power" : 139
-  }, {
-    "name" : "Defense",
-    "power" : 10
-  } ]
-}, {
-  "id" : 12,
-  "name" : "raboot",
-  "types" : [ "fighting", "ice" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 115
-  }, {
-    "name" : "Attack",
-    "power" : 118
-  }, {
-    "name" : "Defense",
-    "power" : 151
-  } ]
-}, {
-  "id" : 13,
-  "name" : "golurk",
-  "types" : [ "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 165
-  }, {
-    "name" : "Attack",
-    "power" : 119
-  }, {
-    "name" : "Defense",
-    "power" : 8
-  } ]
-}, {
-  "id" : 14,
-  "name" : "electrike",
-  "types" : [ "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 106
-  }, {
-    "name" : "Attack",
-    "power" : 190
-  }, {
-    "name" : "Defense",
-    "power" : 75
-  } ]
-}, {
-  "id" : 15,
-  "name" : "octillery",
-  "types" : [ "fairy", "fighting" ],
+  "name" : "stunky",
+  "types" : [ "poison" ],
   "base" : [ {
     "name" : "HP",
     "power" : 18
   }, {
     "name" : "Attack",
-    "power" : 120
+    "power" : 139
   }, {
     "name" : "Defense",
-    "power" : 88
+    "power" : 194
   } ]
 }, {
-  "id" : 16,
-  "name" : "moltres",
-  "types" : [ "fire" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 23
-  }, {
-    "name" : "Attack",
-    "power" : 35
-  }, {
-    "name" : "Defense",
-    "power" : 51
-  } ]
-}, {
-  "id" : 17,
-  "name" : "hoppip",
+  "id" : 2,
+  "name" : "psyduck",
   "types" : [ "ground" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 61
-  }, {
-    "name" : "Attack",
-    "power" : 19
-  }, {
-    "name" : "Defense",
-    "power" : 182
-  } ]
-}, {
-  "id" : 18,
-  "name" : "taillow",
-  "types" : [ "poison", "flying" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 91
-  }, {
-    "name" : "Attack",
-    "power" : 112
-  }, {
-    "name" : "Defense",
-    "power" : 79
-  } ]
-}, {
-  "id" : 19,
-  "name" : "milcery",
-  "types" : [ "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 107
-  }, {
-    "name" : "Attack",
-    "power" : 78
-  }, {
-    "name" : "Defense",
-    "power" : 199
-  } ]
-}, {
-  "id" : 20,
-  "name" : "hakamoo",
-  "types" : [ "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 138
-  }, {
-    "name" : "Attack",
-    "power" : 63
-  }, {
-    "name" : "Defense",
     "power" : 131
-  } ]
-}, {
-  "id" : 21,
-  "name" : "machamp",
-  "types" : [ "bug", "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 92
   }, {
     "name" : "Attack",
+    "power" : 129
+  }, {
+    "name" : "Defense",
+    "power" : 28
+  } ]
+}, {
+  "id" : 3,
+  "name" : "lunatone",
+  "types" : [ "steel", "rock" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 99
+  }, {
+    "name" : "Attack",
+    "power" : 135
+  }, {
+    "name" : "Defense",
+    "power" : 183
+  } ]
+}, {
+  "id" : 4,
+  "name" : "infernape",
+  "types" : [ "electric" ],
+  "base" : [ {
+    "name" : "HP",
     "power" : 194
   }, {
+    "name" : "Attack",
+    "power" : 4
+  }, {
     "name" : "Defense",
-    "power" : 35
+    "power" : 17
   } ]
 }, {
-  "id" : 22,
-  "name" : "golduck",
-  "types" : [ "bug" ],
+  "id" : 5,
+  "name" : "mareanie",
+  "types" : [ "fighting" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 151
+    "power" : 180
   }, {
     "name" : "Attack",
-    "power" : 6
+    "power" : 35
+  }, {
+    "name" : "Defense",
+    "power" : 54
+  } ]
+}, {
+  "id" : 6,
+  "name" : "kabutops",
+  "types" : [ "psychic", "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 117
+  }, {
+    "name" : "Attack",
+    "power" : 131
+  }, {
+    "name" : "Defense",
+    "power" : 141
+  } ]
+}, {
+  "id" : 7,
+  "name" : "cofagrigus",
+  "types" : [ "ground" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 190
+  }, {
+    "name" : "Attack",
+    "power" : 94
   }, {
     "name" : "Defense",
     "power" : 110
   } ]
 }, {
-  "id" : 23,
-  "name" : "emolga",
-  "types" : [ "dragon" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 61
-  }, {
-    "name" : "Attack",
-    "power" : 50
-  }, {
-    "name" : "Defense",
-    "power" : 5
-  } ]
-}, {
-  "id" : 24,
-  "name" : "bergmite",
-  "types" : [ "fire", "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 17
-  }, {
-    "name" : "Attack",
-    "power" : 180
-  }, {
-    "name" : "Defense",
-    "power" : 169
-  } ]
-}, {
-  "id" : 25,
-  "name" : "yungoos",
+  "id" : 8,
+  "name" : "torterra",
   "types" : [ "fairy" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 51
+    "power" : 123
   }, {
     "name" : "Attack",
-    "power" : 154
+    "power" : 96
   }, {
     "name" : "Defense",
-    "power" : 114
+    "power" : 86
   } ]
 }, {
-  "id" : 26,
-  "name" : "lapras",
-  "types" : [ "grass" ],
+  "id" : 9,
+  "name" : "drapion",
+  "types" : [ "grass", "normal" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 56
+    "power" : 112
   }, {
     "name" : "Attack",
-    "power" : 90
+    "power" : 80
   }, {
     "name" : "Defense",
-    "power" : 50
+    "power" : 22
   } ]
 }, {
-  "id" : 27,
-  "name" : "thwakey",
-  "types" : [ "grass", "fire" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 171
-  }, {
-    "name" : "Attack",
-    "power" : 60
-  }, {
-    "name" : "Defense",
-    "power" : 104
-  } ]
-}, {
-  "id" : 28,
-  "name" : "maractus",
-  "types" : [ "ground" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 173
-  }, {
-    "name" : "Attack",
-    "power" : 16
-  }, {
-    "name" : "Defense",
-    "power" : 185
-  } ]
-}, {
-  "id" : 29,
-  "name" : "cincinno",
-  "types" : [ "dragon" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 64
-  }, {
-    "name" : "Attack",
-    "power" : 108
-  }, {
-    "name" : "Defense",
-    "power" : 32
-  } ]
-}, {
-  "id" : 30,
-  "name" : "yanmega",
-  "types" : [ "fighting", "dark" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 100
-  }, {
-    "name" : "Attack",
-    "power" : 33
-  }, {
-    "name" : "Defense",
-    "power" : 6
-  } ]
-}, {
-  "id" : 31,
-  "name" : "greedent",
-  "types" : [ "flying" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 71
-  }, {
-    "name" : "Attack",
-    "power" : 188
-  }, {
-    "name" : "Defense",
-    "power" : 37
-  } ]
-}, {
-  "id" : 32,
-  "name" : "victreebel",
-  "types" : [ "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 159
-  }, {
-    "name" : "Attack",
-    "power" : 185
-  }, {
-    "name" : "Defense",
-    "power" : 9
-  } ]
-}, {
-  "id" : 33,
-  "name" : "sunflora",
-  "types" : [ "ghost", "ice" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 79
-  }, {
-    "name" : "Attack",
-    "power" : 92
-  }, {
-    "name" : "Defense",
-    "power" : 148
-  } ]
-}, {
-  "id" : 34,
-  "name" : "dewgong",
+  "id" : 10,
+  "name" : "porygon2",
   "types" : [ "rock" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 189
+    "power" : 29
   }, {
     "name" : "Attack",
-    "power" : 144
+    "power" : 17
   }, {
     "name" : "Defense",
-    "power" : 52
+    "power" : 98
   } ]
 }, {
-  "id" : 35,
-  "name" : "necrozma",
+  "id" : 11,
+  "name" : "surskit",
+  "types" : [ "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 135
+  }, {
+    "name" : "Attack",
+    "power" : 129
+  }, {
+    "name" : "Defense",
+    "power" : 35
+  } ]
+}, {
+  "id" : 12,
+  "name" : "bravairy",
+  "types" : [ "poison", "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 134
+  }, {
+    "name" : "Attack",
+    "power" : 3
+  }, {
+    "name" : "Defense",
+    "power" : 150
+  } ]
+}, {
+  "id" : 13,
+  "name" : "cinderace",
+  "types" : [ "normal" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 109
+  }, {
+    "name" : "Attack",
+    "power" : 117
+  }, {
+    "name" : "Defense",
+    "power" : 159
+  } ]
+}, {
+  "id" : 14,
+  "name" : "lugia",
+  "types" : [ "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 37
+  }, {
+    "name" : "Attack",
+    "power" : 53
+  }, {
+    "name" : "Defense",
+    "power" : 100
+  } ]
+}, {
+  "id" : 15,
+  "name" : "mienfoo",
+  "types" : [ "dragon", "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 119
+  }, {
+    "name" : "Attack",
+    "power" : 99
+  }, {
+    "name" : "Defense",
+    "power" : 131
+  } ]
+}, {
+  "id" : 16,
+  "name" : "vaporeon",
   "types" : [ "psychic" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 142
+    "power" : 140
   }, {
     "name" : "Attack",
-    "power" : 52
+    "power" : 66
   }, {
     "name" : "Defense",
-    "power" : 178
+    "power" : 129
   } ]
 }, {
-  "id" : 36,
-  "name" : "cacturne",
-  "types" : [ "dragon", "fire" ],
+  "id" : 17,
+  "name" : "dreepy",
+  "types" : [ "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 155
+  }, {
+    "name" : "Attack",
+    "power" : 166
+  }, {
+    "name" : "Defense",
+    "power" : 152
+  } ]
+}, {
+  "id" : 18,
+  "name" : "chespin",
+  "types" : [ "rock", "ghost" ],
   "base" : [ {
     "name" : "HP",
     "power" : 137
   }, {
     "name" : "Attack",
-    "power" : 112
+    "power" : 123
   }, {
     "name" : "Defense",
-    "power" : 193
+    "power" : 159
   } ]
 }, {
-  "id" : 37,
-  "name" : "magmar",
-  "types" : [ "psychic" ],
+  "id" : 19,
+  "name" : "sawk",
+  "types" : [ "normal" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 189
+    "power" : 136
   }, {
     "name" : "Attack",
-    "power" : 58
+    "power" : 137
   }, {
     "name" : "Defense",
-    "power" : 45
+    "power" : 94
   } ]
 }, {
-  "id" : 38,
-  "name" : "venonath",
-  "types" : [ "normal" ],
+  "id" : 20,
+  "name" : "cosmoem",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 175
+  }, {
+    "name" : "Attack",
+    "power" : 86
+  }, {
+    "name" : "Defense",
+    "power" : 114
+  } ]
+}, {
+  "id" : 21,
+  "name" : "venusaur",
+  "types" : [ "ice", "ice" ],
   "base" : [ {
     "name" : "HP",
     "power" : 88
   }, {
     "name" : "Attack",
-    "power" : 59
+    "power" : 45
   }, {
     "name" : "Defense",
-    "power" : 193
+    "power" : 194
   } ]
 }, {
-  "id" : 39,
-  "name" : "hippopotas",
-  "types" : [ "rock", "ice" ],
+  "id" : 22,
+  "name" : "venomoth",
+  "types" : [ "ground" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 80
+    "power" : 106
   }, {
     "name" : "Attack",
-    "power" : 184
-  }, {
-    "name" : "Defense",
     "power" : 169
-  } ]
-}, {
-  "id" : 40,
-  "name" : "rotom",
-  "types" : [ "normal" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 97
-  }, {
-    "name" : "Attack",
-    "power" : 75
   }, {
     "name" : "Defense",
     "power" : 118
   } ]
 }, {
-  "id" : 41,
-  "name" : "tapukoko",
-  "types" : [ "normal" ],
+  "id" : 23,
+  "name" : "unfezant",
+  "types" : [ "steel" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 164
+    "power" : 7
   }, {
     "name" : "Attack",
-    "power" : 117
+    "power" : 183
   }, {
     "name" : "Defense",
-    "power" : 117
+    "power" : 43
   } ]
 }, {
-  "id" : 42,
-  "name" : "shieldon",
-  "types" : [ "grass", "flying" ],
+  "id" : 24,
+  "name" : "spewpa",
+  "types" : [ "ghost", "fighting" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 89
+    "power" : 140
+  }, {
+    "name" : "Attack",
+    "power" : 158
+  }, {
+    "name" : "Defense",
+    "power" : 1
+  } ]
+}, {
+  "id" : 25,
+  "name" : "lairon",
+  "types" : [ "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 6
+  }, {
+    "name" : "Attack",
+    "power" : 68
+  }, {
+    "name" : "Defense",
+    "power" : 165
+  } ]
+}, {
+  "id" : 26,
+  "name" : "dusclops",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 142
+  }, {
+    "name" : "Attack",
+    "power" : 157
+  }, {
+    "name" : "Defense",
+    "power" : 196
+  } ]
+}, {
+  "id" : 27,
+  "name" : "cosmog",
+  "types" : [ "ice", "electric" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 183
+  }, {
+    "name" : "Attack",
+    "power" : 130
+  }, {
+    "name" : "Defense",
+    "power" : 7
+  } ]
+}, {
+  "id" : 28,
+  "name" : "arrokuda",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 64
   }, {
     "name" : "Attack",
     "power" : 144
   }, {
     "name" : "Defense",
-    "power" : 30
+    "power" : 116
+  } ]
+}, {
+  "id" : 29,
+  "name" : "turtonator",
+  "types" : [ "normal" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 72
+  }, {
+    "name" : "Attack",
+    "power" : 77
+  }, {
+    "name" : "Defense",
+    "power" : 58
+  } ]
+}, {
+  "id" : 30,
+  "name" : "wobbuffet",
+  "types" : [ "fighting", "flying" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 133
+  }, {
+    "name" : "Attack",
+    "power" : 70
+  }, {
+    "name" : "Defense",
+    "power" : 199
+  } ]
+}, {
+  "id" : 31,
+  "name" : "eiscue",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 69
+  }, {
+    "name" : "Attack",
+    "power" : 136
+  }, {
+    "name" : "Defense",
+    "power" : 198
+  } ]
+}, {
+  "id" : 32,
+  "name" : "clefable",
+  "types" : [ "ground" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 131
+  }, {
+    "name" : "Attack",
+    "power" : 69
+  }, {
+    "name" : "Defense",
+    "power" : 112
+  } ]
+}, {
+  "id" : 33,
+  "name" : "turtonator",
+  "types" : [ "steel", "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 139
+  }, {
+    "name" : "Attack",
+    "power" : 34
+  }, {
+    "name" : "Defense",
+    "power" : 129
+  } ]
+}, {
+  "id" : 34,
+  "name" : "gulpin",
+  "types" : [ "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 59
+  }, {
+    "name" : "Attack",
+    "power" : 142
+  }, {
+    "name" : "Defense",
+    "power" : 110
+  } ]
+}, {
+  "id" : 35,
+  "name" : "nihilego",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 133
+  }, {
+    "name" : "Attack",
+    "power" : 8
+  }, {
+    "name" : "Defense",
+    "power" : 12
+  } ]
+}, {
+  "id" : 36,
+  "name" : "noctowl",
+  "types" : [ "psychic", "bug" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 173
+  }, {
+    "name" : "Attack",
+    "power" : 70
+  }, {
+    "name" : "Defense",
+    "power" : 185
+  } ]
+}, {
+  "id" : 37,
+  "name" : "bellossom",
+  "types" : [ "normal" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 68
+  }, {
+    "name" : "Attack",
+    "power" : 72
+  }, {
+    "name" : "Defense",
+    "power" : 155
+  } ]
+}, {
+  "id" : 38,
+  "name" : "taillow",
+  "types" : [ "ice" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 76
+  }, {
+    "name" : "Attack",
+    "power" : 148
+  }, {
+    "name" : "Defense",
+    "power" : 157
+  } ]
+}, {
+  "id" : 39,
+  "name" : "tangela",
+  "types" : [ "steel", "normal" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 109
+  }, {
+    "name" : "Attack",
+    "power" : 45
+  }, {
+    "name" : "Defense",
+    "power" : 38
+  } ]
+}, {
+  "id" : 40,
+  "name" : "toxapex",
+  "types" : [ "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 48
+  }, {
+    "name" : "Attack",
+    "power" : 75
+  }, {
+    "name" : "Defense",
+    "power" : 97
+  } ]
+}, {
+  "id" : 41,
+  "name" : "flarion",
+  "types" : [ "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 5
+  }, {
+    "name" : "Attack",
+    "power" : 102
+  }, {
+    "name" : "Defense",
+    "power" : 111
+  } ]
+}, {
+  "id" : 42,
+  "name" : "riolu",
+  "types" : [ "rock", "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 178
+  }, {
+    "name" : "Attack",
+    "power" : 120
+  }, {
+    "name" : "Defense",
+    "power" : 52
   } ]
 }, {
   "id" : 43,
-  "name" : "wurmple",
+  "name" : "komala",
+  "types" : [ "fire" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 9
+  }, {
+    "name" : "Attack",
+    "power" : 29
+  }, {
+    "name" : "Defense",
+    "power" : 14
+  } ]
+}, {
+  "id" : 44,
+  "name" : "reunciclus",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 45
+  }, {
+    "name" : "Attack",
+    "power" : 13
+  }, {
+    "name" : "Defense",
+    "power" : 196
+  } ]
+}, {
+  "id" : 45,
+  "name" : "golduck",
+  "types" : [ "dragon", "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 130
+  }, {
+    "name" : "Attack",
+    "power" : 85
+  }, {
+    "name" : "Defense",
+    "power" : 51
+  } ]
+}, {
+  "id" : 46,
+  "name" : "amoonguss",
+  "types" : [ "ground" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 179
+  }, {
+    "name" : "Attack",
+    "power" : 50
+  }, {
+    "name" : "Defense",
+    "power" : 18
+  } ]
+}, {
+  "id" : 47,
+  "name" : "mrmime",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 4
+  }, {
+    "name" : "Attack",
+    "power" : 55
+  }, {
+    "name" : "Defense",
+    "power" : 90
+  } ]
+}, {
+  "id" : 48,
+  "name" : "magnezone",
+  "types" : [ "water", "rock" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 166
+  }, {
+    "name" : "Attack",
+    "power" : 19
+  }, {
+    "name" : "Defense",
+    "power" : 138
+  } ]
+}, {
+  "id" : 49,
+  "name" : "cresselia",
+  "types" : [ "fire" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 35
+  }, {
+    "name" : "Attack",
+    "power" : 190
+  }, {
+    "name" : "Defense",
+    "power" : 11
+  } ]
+}, {
+  "id" : 50,
+  "name" : "dunsparce",
+  "types" : [ "ice" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 109
+  }, {
+    "name" : "Attack",
+    "power" : 121
+  }, {
+    "name" : "Defense",
+    "power" : 109
+  } ]
+}, {
+  "id" : 51,
+  "name" : "reunciclus",
+  "types" : [ "poison", "electric" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 97
+  }, {
+    "name" : "Attack",
+    "power" : 120
+  }, {
+    "name" : "Defense",
+    "power" : 184
+  } ]
+}, {
+  "id" : 52,
+  "name" : "noctowl",
+  "types" : [ "fire" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 83
+  }, {
+    "name" : "Attack",
+    "power" : 151
+  }, {
+    "name" : "Defense",
+    "power" : 27
+  } ]
+}, {
+  "id" : 53,
+  "name" : "mudray",
+  "types" : [ "psychic" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 193
+  }, {
+    "name" : "Attack",
+    "power" : 89
+  }, {
+    "name" : "Defense",
+    "power" : 146
+  } ]
+}, {
+  "id" : 54,
+  "name" : "zekrom",
+  "types" : [ "steel", "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 186
+  }, {
+    "name" : "Attack",
+    "power" : 182
+  }, {
+    "name" : "Defense",
+    "power" : 124
+  } ]
+}, {
+  "id" : 55,
+  "name" : "indeedee",
   "types" : [ "bug" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 87
+  }, {
+    "name" : "Attack",
+    "power" : 35
+  }, {
+    "name" : "Defense",
+    "power" : 123
+  } ]
+}, {
+  "id" : 56,
+  "name" : "vanipede",
+  "types" : [ "ice" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 122
+  }, {
+    "name" : "Attack",
+    "power" : 21
+  }, {
+    "name" : "Defense",
+    "power" : 110
+  } ]
+}, {
+  "id" : 57,
+  "name" : "skwovet",
+  "types" : [ "bug", "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 187
+  }, {
+    "name" : "Attack",
+    "power" : 185
+  }, {
+    "name" : "Defense",
+    "power" : 69
+  } ]
+}, {
+  "id" : 58,
+  "name" : "zapdos",
+  "types" : [ "bug" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 156
+  }, {
+    "name" : "Attack",
+    "power" : 73
+  }, {
+    "name" : "Defense",
+    "power" : 22
+  } ]
+}, {
+  "id" : 59,
+  "name" : "seadra",
+  "types" : [ "fairy" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 164
+  }, {
+    "name" : "Attack",
+    "power" : 136
+  }, {
+    "name" : "Defense",
+    "power" : 38
+  } ]
+}, {
+  "id" : 60,
+  "name" : "tornadus",
+  "types" : [ "psychic", "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 30
+  }, {
+    "name" : "Attack",
+    "power" : 97
+  }, {
+    "name" : "Defense",
+    "power" : 134
+  } ]
+}, {
+  "id" : 61,
+  "name" : "dhelmise",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 60
+  }, {
+    "name" : "Attack",
+    "power" : 171
+  }, {
+    "name" : "Defense",
+    "power" : 60
+  } ]
+}, {
+  "id" : 62,
+  "name" : "venusaur",
+  "types" : [ "psychic" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 40
+  }, {
+    "name" : "Attack",
+    "power" : 57
+  }, {
+    "name" : "Defense",
+    "power" : 190
+  } ]
+}, {
+  "id" : 63,
+  "name" : "sandygast",
+  "types" : [ "poison", "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 43
+  }, {
+    "name" : "Attack",
+    "power" : 114
+  }, {
+    "name" : "Defense",
+    "power" : 108
+  } ]
+}, {
+  "id" : 64,
+  "name" : "plusle",
+  "types" : [ "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 63
+  }, {
+    "name" : "Attack",
+    "power" : 168
+  }, {
+    "name" : "Defense",
+    "power" : 68
+  } ]
+}, {
+  "id" : 65,
+  "name" : "togetic",
+  "types" : [ "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 166
+  }, {
+    "name" : "Attack",
+    "power" : 68
+  }, {
+    "name" : "Defense",
+    "power" : 153
+  } ]
+}, {
+  "id" : 66,
+  "name" : "spearow",
+  "types" : [ "fairy", "dragon" ],
   "base" : [ {
     "name" : "HP",
     "power" : 39
@@ -598,804 +920,482 @@
     "power" : 143
   }, {
     "name" : "Defense",
-    "power" : 186
-  } ]
-}, {
-  "id" : 44,
-  "name" : "wigglytuff",
-  "types" : [ "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 155
-  }, {
-    "name" : "Attack",
-    "power" : 20
-  }, {
-    "name" : "Defense",
-    "power" : 142
-  } ]
-}, {
-  "id" : 45,
-  "name" : "tapulele",
-  "types" : [ "ground", "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 99
-  }, {
-    "name" : "Attack",
-    "power" : 81
-  }, {
-    "name" : "Defense",
-    "power" : 2
-  } ]
-}, {
-  "id" : 46,
-  "name" : "flarion",
-  "types" : [ "flying" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 3
-  }, {
-    "name" : "Attack",
-    "power" : 155
-  }, {
-    "name" : "Defense",
-    "power" : 11
-  } ]
-}, {
-  "id" : 47,
-  "name" : "cherubi",
-  "types" : [ "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 26
-  }, {
-    "name" : "Attack",
-    "power" : 44
-  }, {
-    "name" : "Defense",
-    "power" : 157
-  } ]
-}, {
-  "id" : 48,
-  "name" : "litten",
-  "types" : [ "dragon", "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 114
-  }, {
-    "name" : "Attack",
-    "power" : 67
-  }, {
-    "name" : "Defense",
-    "power" : 61
-  } ]
-}, {
-  "id" : 49,
-  "name" : "karrablast",
-  "types" : [ "normal" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 58
-  }, {
-    "name" : "Attack",
-    "power" : 45
-  }, {
-    "name" : "Defense",
-    "power" : 85
-  } ]
-}, {
-  "id" : 50,
-  "name" : "beldum",
-  "types" : [ "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 101
-  }, {
-    "name" : "Attack",
-    "power" : 69
-  }, {
-    "name" : "Defense",
-    "power" : 128
-  } ]
-}, {
-  "id" : 51,
-  "name" : "medicham",
-  "types" : [ "bug", "ghost" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 55
-  }, {
-    "name" : "Attack",
-    "power" : 150
-  }, {
-    "name" : "Defense",
-    "power" : 95
-  } ]
-}, {
-  "id" : 52,
-  "name" : "tynamo",
-  "types" : [ "ghost" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 123
-  }, {
-    "name" : "Attack",
-    "power" : 45
-  }, {
-    "name" : "Defense",
-    "power" : 155
-  } ]
-}, {
-  "id" : 53,
-  "name" : "gulpin",
-  "types" : [ "ice" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 101
-  }, {
-    "name" : "Attack",
-    "power" : 122
-  }, {
-    "name" : "Defense",
-    "power" : 57
-  } ]
-}, {
-  "id" : 54,
-  "name" : "bibarel",
-  "types" : [ "psychic", "fairy" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 127
-  }, {
-    "name" : "Attack",
-    "power" : 70
-  }, {
-    "name" : "Defense",
-    "power" : 145
-  } ]
-}, {
-  "id" : 55,
-  "name" : "rapidash",
-  "types" : [ "water" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 142
-  }, {
-    "name" : "Attack",
-    "power" : 130
-  }, {
-    "name" : "Defense",
-    "power" : 0
-  } ]
-}, {
-  "id" : 56,
-  "name" : "overqwil",
-  "types" : [ "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 169
-  }, {
-    "name" : "Attack",
-    "power" : 125
-  }, {
-    "name" : "Defense",
-    "power" : 173
-  } ]
-}, {
-  "id" : 57,
-  "name" : "rampardos",
-  "types" : [ "normal", "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 177
-  }, {
-    "name" : "Attack",
-    "power" : 94
-  }, {
-    "name" : "Defense",
-    "power" : 161
-  } ]
-}, {
-  "id" : 58,
-  "name" : "aron",
-  "types" : [ "flying" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 186
-  }, {
-    "name" : "Attack",
-    "power" : 173
-  }, {
-    "name" : "Defense",
-    "power" : 181
-  } ]
-}, {
-  "id" : 59,
-  "name" : "frillish",
-  "types" : [ "fire" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 90
-  }, {
-    "name" : "Attack",
-    "power" : 83
-  }, {
-    "name" : "Defense",
-    "power" : 131
-  } ]
-}, {
-  "id" : 60,
-  "name" : "staravia",
-  "types" : [ "ground", "flying" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 27
-  }, {
-    "name" : "Attack",
-    "power" : 66
-  }, {
-    "name" : "Defense",
-    "power" : 80
-  } ]
-}, {
-  "id" : 61,
-  "name" : "oshawott",
-  "types" : [ "electric" ],
-  "base" : [ {
-    "name" : "HP",
     "power" : 76
-  }, {
-    "name" : "Attack",
-    "power" : 162
-  }, {
-    "name" : "Defense",
-    "power" : 45
   } ]
 }, {
-  "id" : 62,
-  "name" : "gogoat",
-  "types" : [ "water" ],
+  "id" : 67,
+  "name" : "karrablast",
+  "types" : [ "grass" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 102
+    "power" : 63
   }, {
     "name" : "Attack",
-    "power" : 69
+    "power" : 147
   }, {
     "name" : "Defense",
-    "power" : 184
+    "power" : 170
   } ]
 }, {
-  "id" : 63,
-  "name" : "staravia",
-  "types" : [ "ice", "fighting" ],
+  "id" : 68,
+  "name" : "dhelmise",
+  "types" : [ "dragon" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 169
+    "power" : 107
   }, {
     "name" : "Attack",
-    "power" : 116
-  }, {
-    "name" : "Defense",
-    "power" : 47
-  } ]
-}, {
-  "id" : 64,
-  "name" : "shelgon",
-  "types" : [ "normal" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 150
-  }, {
-    "name" : "Attack",
-    "power" : 91
-  }, {
-    "name" : "Defense",
-    "power" : 84
-  } ]
-}, {
-  "id" : 65,
-  "name" : "rhyhorn",
-  "types" : [ "ground" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 58
-  }, {
-    "name" : "Attack",
-    "power" : 7
-  }, {
-    "name" : "Defense",
-    "power" : 177
-  } ]
-}, {
-  "id" : 66,
-  "name" : "togetic",
-  "types" : [ "dark", "steel" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 54
-  }, {
-    "name" : "Attack",
-    "power" : 191
+    "power" : 38
   }, {
     "name" : "Defense",
     "power" : 180
   } ]
 }, {
-  "id" : 67,
-  "name" : "chewtle",
-  "types" : [ "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 81
-  }, {
-    "name" : "Attack",
-    "power" : 102
-  }, {
-    "name" : "Defense",
-    "power" : 65
-  } ]
-}, {
-  "id" : 68,
-  "name" : "chikorita",
-  "types" : [ "rock" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 38
-  }, {
-    "name" : "Attack",
-    "power" : 48
-  }, {
-    "name" : "Defense",
-    "power" : 40
-  } ]
-}, {
   "id" : 69,
-  "name" : "magearna",
-  "types" : [ "ghost", "dragon" ],
+  "name" : "hariyama",
+  "types" : [ "fairy", "ghost" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 194
+    "power" : 192
   }, {
     "name" : "Attack",
-    "power" : 157
+    "power" : 167
   }, {
     "name" : "Defense",
-    "power" : 17
+    "power" : 56
   } ]
 }, {
   "id" : 70,
-  "name" : "shelgon",
-  "types" : [ "steel" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 100
-  }, {
-    "name" : "Attack",
-    "power" : 149
-  }, {
-    "name" : "Defense",
-    "power" : 19
-  } ]
-}, {
-  "id" : 71,
-  "name" : "bellsprout",
-  "types" : [ "fairy" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 96
-  }, {
-    "name" : "Attack",
-    "power" : 184
-  }, {
-    "name" : "Defense",
-    "power" : 82
-  } ]
-}, {
-  "id" : 72,
-  "name" : "deoxys",
-  "types" : [ "ghost", "dragon" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 23
-  }, {
-    "name" : "Attack",
-    "power" : 122
-  }, {
-    "name" : "Defense",
-    "power" : 141
-  } ]
-}, {
-  "id" : 73,
-  "name" : "pidgeotto",
+  "name" : "tyrunt",
   "types" : [ "grass" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 10
+    "power" : 109
   }, {
     "name" : "Attack",
-    "power" : 25
+    "power" : 22
+  }, {
+    "name" : "Defense",
+    "power" : 62
+  } ]
+}, {
+  "id" : 71,
+  "name" : "stoutland",
+  "types" : [ "fairy" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 21
+  }, {
+    "name" : "Attack",
+    "power" : 74
   }, {
     "name" : "Defense",
     "power" : 40
   } ]
 }, {
-  "id" : 74,
-  "name" : "impidimp",
-  "types" : [ "fire" ],
+  "id" : 72,
+  "name" : "crustle",
+  "types" : [ "fairy", "ghost" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 173
+    "power" : 139
   }, {
     "name" : "Attack",
-    "power" : 94
+    "power" : 144
+  }, {
+    "name" : "Defense",
+    "power" : 138
+  } ]
+}, {
+  "id" : 73,
+  "name" : "larvesta",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 172
+  }, {
+    "name" : "Attack",
+    "power" : 90
+  }, {
+    "name" : "Defense",
+    "power" : 32
+  } ]
+}, {
+  "id" : 74,
+  "name" : "swampert",
+  "types" : [ "rock" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 62
+  }, {
+    "name" : "Attack",
+    "power" : 49
   }, {
     "name" : "Defense",
     "power" : 22
   } ]
 }, {
   "id" : 75,
-  "name" : "reshiram",
-  "types" : [ "fire", "water" ],
+  "name" : "noibat",
+  "types" : [ "dragon", "electric" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 36
+    "power" : 14
   }, {
     "name" : "Attack",
-    "power" : 150
+    "power" : 31
   }, {
     "name" : "Defense",
-    "power" : 134
+    "power" : 195
   } ]
 }, {
   "id" : 76,
-  "name" : "rookidee",
-  "types" : [ "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 101
-  }, {
-    "name" : "Attack",
-    "power" : 194
-  }, {
-    "name" : "Defense",
-    "power" : 194
-  } ]
-}, {
-  "id" : 77,
-  "name" : "cubchoo",
-  "types" : [ "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 114
-  }, {
-    "name" : "Attack",
-    "power" : 121
-  }, {
-    "name" : "Defense",
-    "power" : 86
-  } ]
-}, {
-  "id" : 78,
-  "name" : "woobat",
-  "types" : [ "bug", "dragon" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 77
-  }, {
-    "name" : "Attack",
-    "power" : 108
-  }, {
-    "name" : "Defense",
-    "power" : 138
-  } ]
-}, {
-  "id" : 79,
-  "name" : "furret",
-  "types" : [ "water" ],
+  "name" : "totodile",
+  "types" : [ "ghost" ],
   "base" : [ {
     "name" : "HP",
     "power" : 183
   }, {
     "name" : "Attack",
-    "power" : 51
+    "power" : 26
   }, {
     "name" : "Defense",
-    "power" : 75
+    "power" : 126
   } ]
 }, {
-  "id" : 80,
-  "name" : "lurantis",
-  "types" : [ "ground" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 142
-  }, {
-    "name" : "Attack",
-    "power" : 71
-  }, {
-    "name" : "Defense",
-    "power" : 16
-  } ]
-}, {
-  "id" : 81,
-  "name" : "bonsly",
-  "types" : [ "ground", "normal" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 1
-  }, {
-    "name" : "Attack",
-    "power" : 192
-  }, {
-    "name" : "Defense",
-    "power" : 154
-  } ]
-}, {
-  "id" : 82,
-  "name" : "larvitar",
-  "types" : [ "water" ],
+  "id" : 77,
+  "name" : "ferroseed",
+  "types" : [ "normal" ],
   "base" : [ {
     "name" : "HP",
     "power" : 198
   }, {
     "name" : "Attack",
-    "power" : 179
+    "power" : 18
   }, {
     "name" : "Defense",
-    "power" : 82
+    "power" : 5
   } ]
 }, {
-  "id" : 83,
-  "name" : "morgrem",
-  "types" : [ "psychic" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 188
-  }, {
-    "name" : "Attack",
-    "power" : 140
-  }, {
-    "name" : "Defense",
-    "power" : 158
-  } ]
-}, {
-  "id" : 84,
-  "name" : "rattata",
-  "types" : [ "normal", "ground" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 142
-  }, {
-    "name" : "Attack",
-    "power" : 64
-  }, {
-    "name" : "Defense",
-    "power" : 11
-  } ]
-}, {
-  "id" : 85,
-  "name" : "heatran",
-  "types" : [ "fire" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 91
-  }, {
-    "name" : "Attack",
-    "power" : 1
-  }, {
-    "name" : "Defense",
-    "power" : 121
-  } ]
-}, {
-  "id" : 86,
-  "name" : "wingull",
-  "types" : [ "fire" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 143
-  }, {
-    "name" : "Attack",
-    "power" : 1
-  }, {
-    "name" : "Defense",
-    "power" : 95
-  } ]
-}, {
-  "id" : 87,
-  "name" : "dartrix",
-  "types" : [ "steel", "dark" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 100
-  }, {
-    "name" : "Attack",
-    "power" : 72
-  }, {
-    "name" : "Defense",
-    "power" : 16
-  } ]
-}, {
-  "id" : 88,
-  "name" : "dubwool",
-  "types" : [ "electric" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 26
-  }, {
-    "name" : "Attack",
-    "power" : 7
-  }, {
-    "name" : "Defense",
-    "power" : 36
-  } ]
-}, {
-  "id" : 89,
-  "name" : "pignite",
-  "types" : [ "ice" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 80
-  }, {
-    "name" : "Attack",
-    "power" : 173
-  }, {
-    "name" : "Defense",
-    "power" : 64
-  } ]
-}, {
-  "id" : 90,
-  "name" : "whimsicott",
-  "types" : [ "poison", "rock" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 161
-  }, {
-    "name" : "Attack",
-    "power" : 85
-  }, {
-    "name" : "Defense",
-    "power" : 133
-  } ]
-}, {
-  "id" : 91,
-  "name" : "abomasnow",
-  "types" : [ "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 81
-  }, {
-    "name" : "Attack",
-    "power" : 20
-  }, {
-    "name" : "Defense",
-    "power" : 130
-  } ]
-}, {
-  "id" : 92,
-  "name" : "gallade",
-  "types" : [ "water" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 177
-  }, {
-    "name" : "Attack",
-    "power" : 27
-  }, {
-    "name" : "Defense",
-    "power" : 68
-  } ]
-}, {
-  "id" : 93,
-  "name" : "steenee",
-  "types" : [ "normal", "ground" ],
+  "id" : 78,
+  "name" : "mienfoo",
+  "types" : [ "normal", "electric" ],
   "base" : [ {
     "name" : "HP",
     "power" : 144
   }, {
     "name" : "Attack",
-    "power" : 138
+    "power" : 123
+  }, {
+    "name" : "Defense",
+    "power" : 69
+  } ]
+}, {
+  "id" : 79,
+  "name" : "aggron",
+  "types" : [ "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 74
+  }, {
+    "name" : "Attack",
+    "power" : 56
+  }, {
+    "name" : "Defense",
+    "power" : 2
+  } ]
+}, {
+  "id" : 80,
+  "name" : "ekans",
+  "types" : [ "steel" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 107
+  }, {
+    "name" : "Attack",
+    "power" : 199
+  }, {
+    "name" : "Defense",
+    "power" : 62
+  } ]
+}, {
+  "id" : 81,
+  "name" : "scraggy",
+  "types" : [ "steel", "electric" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 91
+  }, {
+    "name" : "Attack",
+    "power" : 121
+  }, {
+    "name" : "Defense",
+    "power" : 61
+  } ]
+}, {
+  "id" : 82,
+  "name" : "pangoro",
+  "types" : [ "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 162
+  }, {
+    "name" : "Attack",
+    "power" : 137
+  }, {
+    "name" : "Defense",
+    "power" : 104
+  } ]
+}, {
+  "id" : 83,
+  "name" : "arctovish",
+  "types" : [ "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 192
+  }, {
+    "name" : "Attack",
+    "power" : 163
+  }, {
+    "name" : "Defense",
+    "power" : 82
+  } ]
+}, {
+  "id" : 84,
+  "name" : "rookidee",
+  "types" : [ "flying", "rock" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 137
+  }, {
+    "name" : "Attack",
+    "power" : 69
+  }, {
+    "name" : "Defense",
+    "power" : 119
+  } ]
+}, {
+  "id" : 85,
+  "name" : "froakie",
+  "types" : [ "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 181
+  }, {
+    "name" : "Attack",
+    "power" : 81
+  }, {
+    "name" : "Defense",
+    "power" : 23
+  } ]
+}, {
+  "id" : 86,
+  "name" : "carvanha",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 100
+  }, {
+    "name" : "Attack",
+    "power" : 175
+  }, {
+    "name" : "Defense",
+    "power" : 86
+  } ]
+}, {
+  "id" : 87,
+  "name" : "elgyem",
+  "types" : [ "dark", "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 157
+  }, {
+    "name" : "Attack",
+    "power" : 161
+  }, {
+    "name" : "Defense",
+    "power" : 118
+  } ]
+}, {
+  "id" : 88,
+  "name" : "shuppet",
+  "types" : [ "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 2
+  }, {
+    "name" : "Attack",
+    "power" : 159
+  }, {
+    "name" : "Defense",
+    "power" : 106
+  } ]
+}, {
+  "id" : 89,
+  "name" : "alakazam",
+  "types" : [ "fighting" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 172
+  }, {
+    "name" : "Attack",
+    "power" : 102
   }, {
     "name" : "Defense",
     "power" : 120
   } ]
 }, {
-  "id" : 94,
-  "name" : "chikorita",
-  "types" : [ "bug" ],
+  "id" : 90,
+  "name" : "raichu",
+  "types" : [ "fire", "ghost" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 17
+    "power" : 15
   }, {
     "name" : "Attack",
-    "power" : 96
+    "power" : 76
   }, {
     "name" : "Defense",
-    "power" : 36
+    "power" : 155
   } ]
 }, {
-  "id" : 95,
-  "name" : "tsareena",
-  "types" : [ "fairy" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 113
-  }, {
-    "name" : "Attack",
-    "power" : 53
-  }, {
-    "name" : "Defense",
-    "power" : 115
-  } ]
-}, {
-  "id" : 96,
-  "name" : "vanilluxe",
-  "types" : [ "normal", "bug" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 164
-  }, {
-    "name" : "Attack",
-    "power" : 66
-  }, {
-    "name" : "Defense",
-    "power" : 34
-  } ]
-}, {
-  "id" : 97,
-  "name" : "pilowag",
-  "types" : [ "ice" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 9
-  }, {
-    "name" : "Attack",
-    "power" : 101
-  }, {
-    "name" : "Defense",
-    "power" : 38
-  } ]
-}, {
-  "id" : 98,
-  "name" : "deoxys",
-  "types" : [ "fighting" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 175
-  }, {
-    "name" : "Attack",
-    "power" : 88
-  }, {
-    "name" : "Defense",
-    "power" : 81
-  } ]
-}, {
-  "id" : 99,
-  "name" : "vanillish",
-  "types" : [ "grass", "poison" ],
-  "base" : [ {
-    "name" : "HP",
-    "power" : 177
-  }, {
-    "name" : "Attack",
-    "power" : 94
-  }, {
-    "name" : "Defense",
-    "power" : 56
-  } ]
-}, {
-  "id" : 100,
-  "name" : "magmortar",
-  "types" : [ "normal" ],
+  "id" : 91,
+  "name" : "yamper",
+  "types" : [ "rock" ],
   "base" : [ {
     "name" : "HP",
     "power" : 54
   }, {
     "name" : "Attack",
-    "power" : 127
+    "power" : 187
   }, {
     "name" : "Defense",
-    "power" : 105
+    "power" : 138
+  } ]
+}, {
+  "id" : 92,
+  "name" : "ditto",
+  "types" : [ "fire" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 162
+  }, {
+    "name" : "Attack",
+    "power" : 94
+  }, {
+    "name" : "Defense",
+    "power" : 87
+  } ]
+}, {
+  "id" : 93,
+  "name" : "rotom",
+  "types" : [ "fairy", "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 73
+  }, {
+    "name" : "Attack",
+    "power" : 33
+  }, {
+    "name" : "Defense",
+    "power" : 21
+  } ]
+}, {
+  "id" : 94,
+  "name" : "perreserker",
+  "types" : [ "bug" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 177
+  }, {
+    "name" : "Attack",
+    "power" : 83
+  }, {
+    "name" : "Defense",
+    "power" : 157
+  } ]
+}, {
+  "id" : 95,
+  "name" : "meloetta",
+  "types" : [ "steel" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 58
+  }, {
+    "name" : "Attack",
+    "power" : 25
+  }, {
+    "name" : "Defense",
+    "power" : 194
+  } ]
+}, {
+  "id" : 96,
+  "name" : "yveltal",
+  "types" : [ "rock", "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 141
+  }, {
+    "name" : "Attack",
+    "power" : 91
+  }, {
+    "name" : "Defense",
+    "power" : 60
+  } ]
+}, {
+  "id" : 97,
+  "name" : "finneon",
+  "types" : [ "flying" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 133
+  }, {
+    "name" : "Attack",
+    "power" : 64
+  }, {
+    "name" : "Defense",
+    "power" : 163
+  } ]
+}, {
+  "id" : 98,
+  "name" : "vaporeon",
+  "types" : [ "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 197
+  }, {
+    "name" : "Attack",
+    "power" : 109
+  }, {
+    "name" : "Defense",
+    "power" : 29
+  } ]
+}, {
+  "id" : 99,
+  "name" : "barraskewda",
+  "types" : [ "fire", "dragon" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 103
+  }, {
+    "name" : "Attack",
+    "power" : 156
+  }, {
+    "name" : "Defense",
+    "power" : 34
+  } ]
+}, {
+  "id" : 100,
+  "name" : "golurk",
+  "types" : [ "water" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 191
+  }, {
+    "name" : "Attack",
+    "power" : 190
+  }, {
+    "name" : "Defense",
+    "power" : 118
   } ]
 } ]
