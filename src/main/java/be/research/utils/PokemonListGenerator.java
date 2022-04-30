@@ -2,6 +2,7 @@ package be.research.utils;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.*;
 
@@ -42,5 +43,10 @@ public class PokemonListGenerator {
 
     private static String randomType(){
         return Types.values()[new Random().nextInt(Types.values().length)].toString().toLowerCase();
+    }
+
+    // methods
+    public static @NotNull List<Pokemon> GenerateListOfPokemons(int length) {
+        return generatePokemonlist(length);
     }
 }

@@ -1,14 +1,14 @@
 package be.research.jackson;
 
-import be.research.utils.PokemonListGenerator;
 import be.research.domain.Pokemon;
 import com.fasterxml.jackson.databind.*;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+
+import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
 
 public class JacksonExample {
     public static void main(String[] args) {
@@ -40,11 +40,6 @@ public class JacksonExample {
             e.printStackTrace();
         }
 
-    }
-
-    // methods
-    private static @NotNull List<Pokemon> GenerateListOfPokemons(int length) {
-        return PokemonListGenerator.generatePokemonlist(length);
     }
 
     private static void WriteJsonFile(String source, List<Pokemon> pokemons) {
