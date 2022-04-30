@@ -21,7 +21,7 @@ public class JacksonExample {
         WriteJsonFile("src/assets/jackson/generated_100Pokemons_Json.json", pokemons_100);
 
 
-        // From JSON file to Pokemon objects -- oplossen!
+        // From JSON file to Pokemon objects
         try{
             ObjectMapper objectMapper = new ObjectMapper();
             List<Pokemon> pokemons = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_10.json").toFile(), Pokemon[].class));
