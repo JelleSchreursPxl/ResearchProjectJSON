@@ -15,7 +15,7 @@ import static com.cedarsoftware.util.io.JsonWriter.objectToJson;
 public class JsonIoExample {
     public static void main(String[] args) throws IOException {
         BufferedWriter objToJsonWriter = new BufferedWriter(new FileWriter("src/assets/jsonio/generated_objectojson.json"));
-        BufferedWriter strToObjectWriterWoType = new BufferedWriter(new FileWriter("src/assets/jsonio/generated_strtoobjectwotype_Json.json"));
+        BufferedWriter strToObjectWriterWoType = new BufferedWriter(new FileWriter("src/assets/jsonio/generated_objectojsonwotype_Json.json"));
         int count = 0;
 
         List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
@@ -41,7 +41,6 @@ public class JsonIoExample {
 //            JsonWriter.writeJsonUtf8String(jsonStr, writer);
             count++;
             writeCustomPrettyJson(objToJsonWriter, count, pokemons_100, s);
-
             writeCustomPrettyJson(strToObjectWriterWoType, count, pokemons_100, s2);
         }
     }
