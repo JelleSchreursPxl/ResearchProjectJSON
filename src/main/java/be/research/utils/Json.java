@@ -1,4 +1,4 @@
-package jsonparser.jackson;
+package be.research.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

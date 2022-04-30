@@ -1,4 +1,4 @@
-package jsonparser.jackson.objects;
+package be.research.domain;
 
 import java.util.Arrays;
 import java.util.List;

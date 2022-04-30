@@ -1,4 +1,4 @@
-package jsonparser.jackson.objects;
+package be.research.utils;
 
 public enum PokemonNames {
     ABOMASNOW,

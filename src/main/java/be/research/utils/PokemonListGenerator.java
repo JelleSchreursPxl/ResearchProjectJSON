@@ -1,9 +1,7 @@
-package jsonparser.jackson;
+package be.research.utils;
 
-import jsonparser.jackson.objects.Pokemon;
-import jsonparser.jackson.objects.Base;
-import jsonparser.jackson.objects.PokemonNames;
-import jsonparser.jackson.objects.Types;
+import be.research.domain.Base;
+import be.research.domain.Pokemon;
 
 import java.util.*;
 

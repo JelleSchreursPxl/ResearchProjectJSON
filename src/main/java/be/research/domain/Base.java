@@ -1,4 +1,4 @@
-package jsonparser.jackson.objects;
+package be.research.domain;
 
 public class Base {
     private String name;

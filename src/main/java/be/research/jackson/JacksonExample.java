@@ -1,7 +1,8 @@
-package jsonparser.jackson;
+package be.research.jackson;
 
+import be.research.utils.PokemonListGenerator;
+import be.research.domain.Pokemon;
 import com.fasterxml.jackson.databind.*;
-import jsonparser.jackson.objects.Pokemon;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
@@ -16,14 +17,14 @@ public class JacksonExample {
         List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
 
         // From generated list to JSON file
-        WriteJsonFile("src/assets/generated_10Pokemons_Json.json", pokemons_10);
-        WriteJsonFile("src/assets/generated_100Pokemons_Json.json", pokemons_100);
+        WriteJsonFile("src/assets/jackson/generated_10Pokemons_Json.json", pokemons_10);
+        WriteJsonFile("src/assets/jackson/generated_100Pokemons_Json.json", pokemons_100);
 
 
         // From JSON file to Pokemon objects -- oplossen!
         try{
             ObjectMapper objectMapper = new ObjectMapper();
-            List<Pokemon> pokemons = Arrays.asList(objectMapper.readValue(Paths.get("src/main/pokemon_10.json").toFile(), Pokemon[].class));
+            List<Pokemon> pokemons = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_10.json").toFile(), Pokemon[].class));
             pokemons.forEach(System.out::println);
         } catch (IOException e){
             e.printStackTrace();
@@ -33,7 +34,7 @@ public class JacksonExample {
 
         try{
             ObjectMapper objectMapper = new ObjectMapper();
-            List<Pokemon> pokemons = Arrays.asList(objectMapper.readValue(Paths.get("src/main/pokemon_100.json").toFile(), Pokemon[].class));
+            List<Pokemon> pokemons = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_100.json").toFile(), Pokemon[].class));
             pokemons.forEach(System.out::println);
         } catch (IOException e){
             e.printStackTrace();
