@@ -51,15 +51,16 @@ public class JsonIoExample {
         if(count == 1){
             objToJsonWriter.write("[");
         }
+
         // Write the prettified json string
         objToJsonWriter.write(s);
-        // Don't place a comma on the end of the json file, only inbetween json objects
-        if(count != pokemon.size()){
-            objToJsonWriter.write(  ",");
-        }
+
         // End the array on the last index
         if(count == pokemon.size()){
             objToJsonWriter.write("]");
+        // Don't place a comma on the end of the json file, only inbetween json objects
+        }else{
+            objToJsonWriter.write(  ",");
         }
     }
 }
