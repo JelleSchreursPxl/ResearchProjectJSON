@@ -19,12 +19,15 @@ public class Gson_FromObjectListToJsonFile {
     public static void main(String[] args) {
         List<Pokemon> pokemons_10 = GenerateListOfPokemons(10);
         List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
+        List<Pokemon> pokemons_1000 = GenerateListOfPokemons(1000);
 
         String gson10Pokemons = "src/assets/gson/generated_10Pokemon_Json.json";
         String gson100Pokemons = "src/assets/gson/generated_100Pokemon_Json.json";
+        String gson1000Pokemons = "src/assets/gson/generated_1000Pokemon_Json.json";
 
         GsonWriteJsonFile(gson10Pokemons, pokemons_10);
         GsonWriteJsonFile(gson100Pokemons, pokemons_100);
+        GsonWriteJsonFile(gson1000Pokemons, pokemons_1000);
     }
 
     /**
