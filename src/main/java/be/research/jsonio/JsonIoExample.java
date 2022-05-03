@@ -17,61 +17,62 @@ import static com.cedarsoftware.util.io.JsonWriter.objectToJson;
 public class JsonIoExample {
     private static final List<Pokemon> POKEMON_10 = GenerateListOfPokemons(10);
     private static final List<Pokemon> POKEMON_100 = GenerateListOfPokemons(100);
+    private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
+    private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
     private static final String POKEMON_JSON_FILE_PATH_10 = "src/assets/jsonio/generated_10Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_100 = "src/assets/jsonio/generated_100Pokemons_Json.json";
+    private static final String POKEMON_JSON_FILE_PATH_1000 = "src/assets/jsonio/generated_1000Pokemons_Json.json";
+    private static final String POKEMON_JSON_FILE_PATH_10000 = "src/assets/jsonio/generated_10000Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_10_WO_TYPE = "src/assets/jsonio/generated_10Pokemons_without_type.json";
     private static final String POKEMON_JSON_FILE_PATH_100_WO_TYPE = "src/assets/jsonio/generated_100Pokemons_without_type.json";
+    private static final String POKEMON_JSON_FILE_PATH_1000_WO_TYPE = "src/assets/jsonio/generated_1000Pokemons_without_type.json";
+    private static final String POKEMON_JSON_FILE_PATH_10000_WO_TYPE = "src/assets/jsonio/generated_10000Pokemons_without_type.json";
 
     public static void main(String[] args) throws Exception {
-        JsonIoObjectToJson();
-        JsonIoObjectToJsonWithoutTypes();
-        JsonIoJsonToObject();
+        JsonIoObjectToJson(POKEMON_10000, POKEMON_JSON_FILE_PATH_10000);
+        JsonIoObjectToJsonWithoutTypes(POKEMON_10000, POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
+        JsonIoJsonToObject(POKEMON_JSON_FILE_PATH_10000);
+        JsonIoJsonWithoutTypesToObject(POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
     }
 
-    private static void JsonIoObjectToJson() {
+    private static void JsonIoObjectToJson(List<Pokemon> pokemon, String path) {
         // From object to json
-        String jsonStr_10 = objectToJson(POKEMON_10);
-        String jsonStr_100 = objectToJson(POKEMON_100);
+        String jsonStr = objectToJson(pokemon);
 
         // Pretty-print JSON
-        String s_10 = JsonWriter.formatJson(jsonStr_10);
-        String s_100 = JsonWriter.formatJson(jsonStr_100);
+        String s = JsonWriter.formatJson(jsonStr);
 
-        JsonIoWriter(s_10, POKEMON_JSON_FILE_PATH_10);
-        JsonIoWriter(s_100, POKEMON_JSON_FILE_PATH_100);
+        JsonIoWriter(s, path);
     }
 
-    private static void JsonIoObjectToJsonWithoutTypes() {
+    private static void JsonIoObjectToJsonWithoutTypes(List<Pokemon> pokemon, String path) {
         // From object to json without types
         Map typeArgs = new HashMap();
         typeArgs.put(JsonWriter.TYPE, false);
-        String jsonStrWoTypes_10 = objectToJson(POKEMON_10, typeArgs);
-        String jsonStrWoTypes_100 = objectToJson(POKEMON_100, typeArgs);
+        String jsonStrWoTypes = objectToJson(pokemon, typeArgs);
 
         // Pretty-print JSON without types
-        String s_10 = JsonWriter.formatJson(jsonStrWoTypes_10);
-        String s_100 = JsonWriter.formatJson(jsonStrWoTypes_100);
+        String s = JsonWriter.formatJson(jsonStrWoTypes);
 
-        JsonIoWriter(s_10, POKEMON_JSON_FILE_PATH_10_WO_TYPE);
-        JsonIoWriter(s_100, POKEMON_JSON_FILE_PATH_100_WO_TYPE);
+        JsonIoWriter(s, path);
     }
 
-    private static void JsonIoJsonToObject() throws Exception {
-        String json_10 = readFileAsString(POKEMON_JSON_FILE_PATH_10);
-        String json_100 = readFileAsString(POKEMON_JSON_FILE_PATH_100);
-        String json_10_wo_types = readFileAsString(POKEMON_JSON_FILE_PATH_10_WO_TYPE);
-        String json_100_wo_types = readFileAsString(POKEMON_JSON_FILE_PATH_100_WO_TYPE);
+    private static void JsonIoJsonToObject(String path) throws Exception {
+        String json = readFileAsString(path);
 
         // From json to object
-        Object pkmJsonStrToObject_10 = jsonToJava(json_10);
-        Object pkmJsonStrToObject_100 =  jsonToJava(json_100);
-        Object pkmJsonStrToObject_10_wo_types =  jsonToJava(json_10_wo_types);
-        Object pkmJsonStrToObject_100_wo_types =  jsonToJava(json_100_wo_types);
+        Object pkmJsonStrToObject = jsonToJava(json);
 
-        System.out.println(pkmJsonStrToObject_10);
-        System.out.println(pkmJsonStrToObject_100);
-        System.out.println(pkmJsonStrToObject_10_wo_types);
-        System.out.println(pkmJsonStrToObject_100_wo_types);
+        System.out.println(pkmJsonStrToObject);
+    }
+
+    private static void JsonIoJsonWithoutTypesToObject(String path) throws Exception {
+        String json_wo_types = readFileAsString(path);
+
+        // From json without types to object
+        Object pkmJsonStrToObject_wo_types =  jsonToJava(json_wo_types);
+
+        System.out.println(pkmJsonStrToObject_wo_types);
     }
 
     private static void JsonIoWriter(String s, String path) {

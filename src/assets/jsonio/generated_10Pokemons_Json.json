@@ -4,9 +4,9 @@
     {
       "@type":"be.research.domain.Pokemon",
       "id":1,
-      "name":"spewpa",
+      "name":"chimecho",
       "types":[
-        "psychic"
+        "bug"
       ],
       "base":{
         "@type":"java.util.ArrayList",
@@ -14,17 +14,17 @@
           {
             "@type":"be.research.domain.Base",
             "name":"HP",
-            "power":11
+            "power":13
           },
           {
             "@type":"be.research.domain.Base",
             "name":"Attack",
-            "power":12
+            "power":81
           },
           {
             "@type":"be.research.domain.Base",
             "name":"Defense",
-            "power":90
+            "power":98
           }
         ]
       }
@@ -32,9 +32,9 @@
     {
       "@type":"be.research.domain.Pokemon",
       "id":2,
-      "name":"cloyster",
+      "name":"spectrier",
       "types":[
-        "steel"
+        "normal"
       ],
       "base":{
         "@type":"java.util.ArrayList",
@@ -42,12 +42,126 @@
           {
             "@type":"be.research.domain.Base",
             "name":"HP",
-            "power":198
+            "power":66
           },
           {
             "@type":"be.research.domain.Base",
             "name":"Attack",
-            "power":69
+            "power":11
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":60
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":3,
+      "name":"celesteela",
+      "types":[
+        "fire",
+        "dragon"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":34
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":104
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":119
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":4,
+      "name":"loudred",
+      "types":[
+        "water"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":146
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":167
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":50
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":5,
+      "name":"combusken",
+      "types":[
+        "normal"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":117
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":89
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":11
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":6,
+      "name":"shroomisch",
+      "types":[
+        "steel",
+        "electric"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":26
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":85
           },
           {
             "@type":"be.research.domain.Base",
@@ -59,122 +173,93 @@
     },
     {
       "@type":"be.research.domain.Pokemon",
-      "id":3,
-      "name":"cloyster",
-      "types":[
-        "grass",
-        "water"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":11
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":27
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":25
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":4,
-      "name":"smeargle",
-      "types":[
-        "bug"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":89
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":85
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":82
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":5,
-      "name":"drowzee",
-      "types":[
-        "rock"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":67
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":30
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":184
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":6,
-      "name":"nidorino",
-      "types":[
-        "normal",
-        "dragon"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":1
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":7
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":100
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
       "id":7,
-      "name":"pelipper",
+      "name":"happiny",
+      "types":[
+        "grass"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":44
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":168
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":94
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":8,
+      "name":"celesteela",
+      "types":[
+        "grass"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":22
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":144
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":97
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":9,
+      "name":"bounsweet",
+      "types":[
+        "dragon",
+        "grass"
+      ],
+      "base":{
+        "@type":"java.util.ArrayList",
+        "@items":[
+          {
+            "@type":"be.research.domain.Base",
+            "name":"HP",
+            "power":146
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Attack",
+            "power":181
+          },
+          {
+            "@type":"be.research.domain.Base",
+            "name":"Defense",
+            "power":83
+          }
+        ]
+      }
+    },
+    {
+      "@type":"be.research.domain.Pokemon",
+      "id":10,
+      "name":"cyndaquil",
       "types":[
         "electric"
       ],
@@ -184,102 +269,17 @@
           {
             "@type":"be.research.domain.Base",
             "name":"HP",
-            "power":179
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":73
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":11
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":8,
-      "name":"spectrier",
-      "types":[
-        "dark"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":158
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":114
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
             "power":74
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":9,
-      "name":"electrode",
-      "types":[
-        "ghost",
-        "grass"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":43
           },
           {
             "@type":"be.research.domain.Base",
             "name":"Attack",
-            "power":1
+            "power":132
           },
           {
             "@type":"be.research.domain.Base",
             "name":"Defense",
-            "power":176
-          }
-        ]
-      }
-    },
-    {
-      "@type":"be.research.domain.Pokemon",
-      "id":10,
-      "name":"electivire",
-      "types":[
-        "ice"
-      ],
-      "base":{
-        "@type":"java.util.ArrayList",
-        "@items":[
-          {
-            "@type":"be.research.domain.Base",
-            "name":"HP",
-            "power":96
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Attack",
-            "power":190
-          },
-          {
-            "@type":"be.research.domain.Base",
-            "name":"Defense",
-            "power":61
+            "power":156
           }
         ]
       }
