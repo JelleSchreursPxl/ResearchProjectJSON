@@ -36,6 +36,22 @@ public class Pokemon {
         return base;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setTypes(String[] types) {
+        this.types = types;
+    }
+
+    public void setBase(List<Base> base) {
+        this.base = base;
+    }
+
     @Override
     public String toString() {
         return "Pokemon{ " +

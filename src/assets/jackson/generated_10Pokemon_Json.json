@@ -1,215 +1,141 @@
-[
-  {
-    "id": 1,
-    "name": "aerodactyl",
-    "types": [
-      "electric"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 182
-      },
-      {
-        "name": "Attack",
-        "power": 30
-      },
-      {
-        "name": "Defense",
-        "power": 144
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "zygarde",
-    "types": [
-      "dark"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 127
-      },
-      {
-        "name": "Attack",
-        "power": 93
-      },
-      {
-        "name": "Defense",
-        "power": 57
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "pyroar",
-    "types": [
-      "fire",
-      "ground"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 57
-      },
-      {
-        "name": "Attack",
-        "power": 161
-      },
-      {
-        "name": "Defense",
-        "power": 91
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "goldeen",
-    "types": [
-      "steel"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 119
-      },
-      {
-        "name": "Attack",
-        "power": 93
-      },
-      {
-        "name": "Defense",
-        "power": 149
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "foongus",
-    "types": [
-      "ground"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 153
-      },
-      {
-        "name": "Attack",
-        "power": 89
-      },
-      {
-        "name": "Defense",
-        "power": 75
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "suicune",
-    "types": [
-      "poison",
-      "water"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 26
-      },
-      {
-        "name": "Attack",
-        "power": 45
-      },
-      {
-        "name": "Defense",
-        "power": 168
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "umbreon",
-    "types": [
-      "dragon"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 126
-      },
-      {
-        "name": "Attack",
-        "power": 61
-      },
-      {
-        "name": "Defense",
-        "power": 50
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "aromatisse",
-    "types": [
-      "fairy"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 13
-      },
-      {
-        "name": "Attack",
-        "power": 124
-      },
-      {
-        "name": "Defense",
-        "power": 28
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "dewpider",
-    "types": [
-      "dragon",
-      "dark"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 199
-      },
-      {
-        "name": "Attack",
-        "power": 100
-      },
-      {
-        "name": "Defense",
-        "power": 166
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "name": "lombre",
-    "types": [
-      "grass"
-    ],
-    "base": [
-      {
-        "name": "HP",
-        "power": 30
-      },
-      {
-        "name": "Attack",
-        "power": 108
-      },
-      {
-        "name": "Defense",
-        "power": 173
-      }
-    ]
-  }
-]
+[ {
+  "id" : 1,
+  "name" : "larvitar",
+  "types" : [ "grass" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 71
+  }, {
+    "name" : "Attack",
+    "power" : 159
+  }, {
+    "name" : "Defense",
+    "power" : 68
+  } ]
+}, {
+  "id" : 2,
+  "name" : "melmetal",
+  "types" : [ "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 36
+  }, {
+    "name" : "Attack",
+    "power" : 4
+  }, {
+    "name" : "Defense",
+    "power" : 43
+  } ]
+}, {
+  "id" : 3,
+  "name" : "hakamoo",
+  "types" : [ "grass", "fairy" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 176
+  }, {
+    "name" : "Attack",
+    "power" : 99
+  }, {
+    "name" : "Defense",
+    "power" : 167
+  } ]
+}, {
+  "id" : 4,
+  "name" : "murkrow",
+  "types" : [ "dark" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 144
+  }, {
+    "name" : "Attack",
+    "power" : 136
+  }, {
+    "name" : "Defense",
+    "power" : 77
+  } ]
+}, {
+  "id" : 5,
+  "name" : "virizion",
+  "types" : [ "ghost" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 8
+  }, {
+    "name" : "Attack",
+    "power" : 13
+  }, {
+    "name" : "Defense",
+    "power" : 0
+  } ]
+}, {
+  "id" : 6,
+  "name" : "nagikarp",
+  "types" : [ "electric", "ground" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 57
+  }, {
+    "name" : "Attack",
+    "power" : 146
+  }, {
+    "name" : "Defense",
+    "power" : 173
+  } ]
+}, {
+  "id" : 7,
+  "name" : "venonath",
+  "types" : [ "poison" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 90
+  }, {
+    "name" : "Attack",
+    "power" : 108
+  }, {
+    "name" : "Defense",
+    "power" : 36
+  } ]
+}, {
+  "id" : 8,
+  "name" : "gabite",
+  "types" : [ "psychic" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 179
+  }, {
+    "name" : "Attack",
+    "power" : 59
+  }, {
+    "name" : "Defense",
+    "power" : 158
+  } ]
+}, {
+  "id" : 9,
+  "name" : "druddigon",
+  "types" : [ "poison", "electric" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 39
+  }, {
+    "name" : "Attack",
+    "power" : 30
+  }, {
+    "name" : "Defense",
+    "power" : 184
+  } ]
+}, {
+  "id" : 10,
+  "name" : "celesteela",
+  "types" : [ "bug" ],
+  "base" : [ {
+    "name" : "HP",
+    "power" : 125
+  }, {
+    "name" : "Attack",
+    "power" : 24
+  }, {
+    "name" : "Defense",
+    "power" : 5
+  } ]
+} ]

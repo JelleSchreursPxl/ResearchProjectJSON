@@ -2,71 +2,79 @@ package be.research.json;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
-import java.io.FileWriter;
-import java.io.IOException;
+import javax.json.*;
+import java.io.*;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
 
-public class Json_FromObjectToJsonFile
-{
-    public static void main( String[] args )
-    {
-        // Generate Pokemon lists
-         List<Pokemon> pokemons_10 = GenerateListOfPokemons(10);
-         List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
+public class Json_FromObjectToJsonFile {
 
-        // From generated list to JSON file
-         WriteJsonFile("src/assets/json/generated_10Pokemon_Json.json", pokemons_10);
-         WriteJsonFile("src/assets/json/generated_100Pokemon_Json.json", pokemons_100);
+    private static final List<Pokemon> POKEMON_10 = GenerateListOfPokemons(10);
+    private static final List<Pokemon> POKEMON_100 = GenerateListOfPokemons(100);
+    private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
+    private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
+
+    private static final String WRITE_WITH_10_POKEMON = "src/assets/json/generated_10Pokemon_Json.json";
+    private static final String WRITE_WITH_100_POKEMON = "src/assets/json/generated_100Pokemon_Json.json";
+    private static final String WRITE_WITH_1000_POKEMON = "src/assets/json/generated_1000Pokemon_Json.json";
+    private static final String WRITE_WITH_10000_POKEMON = "src/assets/json/generated_10000Pokemon_Json.json";
+
+    public static void main(String[] args) {
+
+        CreateJsonListFromPokemonObjects(POKEMON_10, WRITE_WITH_10_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_100, READ_WITH_100_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_1000, READ_WITH_1000_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_10000, READ_WITH_10000_POKEMON);
+
+        CreateJsonListFromPokemonObjects(POKEMON_10, WRITE_WITH_10_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_100, WRITE_WITH_100_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_1000, WRITE_WITH_1000_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_10000, WRITE_WITH_10000_POKEMON);
     }
 
-    private static void WriteJsonFile(String source, List<Pokemon> generatedList)
-    {
-        // lijst van objecten die we naar de file gaan wegschrijven
-        JSONArray objectlist = new JSONArray();
+    static void CreateJsonListFromPokemonObjects(List<Pokemon> pokemonList, String writeToLocation) {
+        JsonArrayBuilder listBuilder = Json.createArrayBuilder();
+        for (Pokemon pokemon : pokemonList) {
 
-        // we moeten elke pokemon ophalen om hier JSONObjecten en JSONArrays van te maken
-        for (Pokemon pokemon:generatedList) {
-            JSONObject object = new JSONObject();
-            JSONArray type = new JSONArray();
-            JSONArray base = new JSONArray();
-
-            // plaats de id en name met key value in het object
-            object.put("id", pokemon.getId());
-            object.put("name", pokemon.getName());
-
-            // loop door elke type en voeg elke type met key value toe aan het object
-            Collections.addAll(type, pokemon.getTypes());
-            object.put("type", type);
-
-            // foreach door alle Base objecten van het Pokemon Object
-            // maak eerst een JSONObject van elk Base Object en voeg dit JSONObject toe aan de JSONArray base
-            for (Base pokemonbase:pokemon.getBase()) {
-                JSONObject baseObject = new JSONObject();
-                baseObject.put("name", pokemonbase.getName());
-                baseObject.put("power", pokemonbase.getPower());
-                base.add(baseObject);
+            JsonArrayBuilder typeBuilder = Json.createArrayBuilder();
+            for (String type:pokemon.getTypes()) {
+                typeBuilder.add(type);
             }
 
-            // voeg de JSONArray base toe aan het JSONObject
-            object.put("base", base);
+            JsonArrayBuilder baseBuilder = Json.createArrayBuilder();
+            for (Base base : pokemon.getBase()) {
+                baseBuilder.add(Json.createObjectBuilder()
+                        .add("name", base.getName())
+                        .add("power", base.getPower()).build());
+            }
 
-            // voeg het object toe aan de JSONArray objectlist
-            objectlist.add(object);
+            //System.out.println(Arrays.stream(types).toList());
+            JsonObject pokemonObject = Json.createObjectBuilder()
+                    .add("id", pokemon.getId())
+                    .add("name", pokemon.getName())
+                    .add("types", typeBuilder)
+                    .add("base", baseBuilder).build();
+
+
+//            JsonObjectBuilder pokemonBuilder = Json.createObjectBuilder();
+//            pokemonBuilder.add("pokemon", pokemonObject);
+            listBuilder.add(pokemonObject);
         }
+        JsonArray arr = listBuilder.build();
+
 
         // Schrijf het JSONObject weg naar een nieuwe file
-        try{
-            FileWriter fileWriter = new FileWriter(source);
-            fileWriter.write(objectlist.toJSONString());
+        try {
+            FileWriter fileWriter = new FileWriter(writeToLocation);
+            fileWriter.write(String.valueOf(arr));
             fileWriter.close();
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+
