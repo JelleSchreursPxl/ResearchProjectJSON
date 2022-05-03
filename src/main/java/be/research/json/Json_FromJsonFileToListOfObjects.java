@@ -2,77 +2,81 @@ package be.research.json;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import org.jetbrains.annotations.Async;
 
-import java.io.FileReader;
-import java.io.IOException;
+import javax.json.*;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Json_FromJsonFileToListOfObjects
-{
-    public static void main(String[] args) {
-        JSONParser parser = new JSONParser();
+import static be.research.json.Json_FromObjectToJsonFile.CreateJsonListFromPokemonObjects;
+import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
 
-        // Json file omzetten naar een JSONArray om de key values te kunnen gebruiken
-        JSONArray pokelist_10 = null;
-        // JSONArray pokelist_100 = null;
-        try {
-            pokelist_10 = (JSONArray) parser.parse(new FileReader("src/main/resources/pokemon_10.json"));
-            // pokelist_100 = (JSONArray) parser.parse(new FileReader("src/main/resources/pokemon_100.json"));
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
+public class Json_FromJsonFileToListOfObjects {
 
-        ReadJsonFileToPokemonObjects(pokelist_10);
-        //ReadJsonFileToPokemonObjects(pokelist_100);
+    private static final List<Pokemon> POKEMON_10 = GenerateListOfPokemons(10);
+    private static final List<Pokemon> POKEMON_100 = GenerateListOfPokemons(100);
+    private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
+    private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
+
+    private static final String READ_WITH_10_POKEMON = "src/assets/json/generated_10Pokemon_Json.json";
+    private static final String READ_WITH_100_POKEMON = "src/assets/json/generated_100Pokemon_Json.json";
+    private static final String READ_WITH_1000_POKEMON = "src/assets/json/generated_1000Pokemon_Json.json";
+    private static final String READ_WITH_10000_POKEMON = "src/assets/json/generated_10000Pokemon_Json.json";
+
+    public static void main(String[] args) throws IOException {
+
+        //CreateJsonListFromPokemonObjects(POKEMON_10, READ_WITH_10_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_100, READ_WITH_100_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_1000, READ_WITH_1000_POKEMON);
+        //CreateJsonListFromPokemonObjects(POKEMON_10000, READ_WITH_10000_POKEMON);
+
+
+        WritePokemonObjectsToJsonFile(READ_WITH_10_POKEMON);
+        //WritePokemonObjectsToJsonFile(READ_WITH_100_POKEMON);
+        //WritePokemonObjectsToJsonFile(READ_WITH_1000_POKEMON);
+        //WritePokemonObjectsToJsonFile(READ_WITH_10000_POKEMON);
     }
 
-    public static void ReadJsonFileToPokemonObjects(JSONArray pokelist)
+    static void WritePokemonObjectsToJsonFile(String readPokemonList) throws IOException
     {
+        InputStream fileInputStream = new FileInputStream(readPokemonList);
+        JsonReader jsonReader = Json.createReader(fileInputStream);
+        JsonArray jsonObjects = jsonReader.readArray();
+        jsonReader.close();
+        fileInputStream.close();
+
         List<Pokemon> pokemonList = new ArrayList<>();
 
-        // We halen elke Object uit de lijst op om van hier PokemonObjecten van te maken
-        for (Object poke : pokelist) {
-            // we maken een JSONObject van van het object poke om de waarden met key value te kunnen ophalen
-            JSONObject jsonobj = (JSONObject) poke;
-            // We zorgen dat we een lijst hebben om onze Base objecten in bij te houden
+        for (JsonValue object : jsonObjects) {
+            JsonObject jobj = object.asJsonObject();
             List<Base> baseList = new ArrayList<>();
-            // we maken een JSONArray om de waarden van het JSONObject met key types in op te slaan waar we achteraf een String array van gaan maken
-            JSONArray types = (JSONArray) jsonobj.get("types");
-            String[] typesArray = new String[0];
-            // we vullen een JSONArray met het JSONObject met de key value base
-            JSONArray bases = (JSONArray) jsonobj.get("base");
-            // we gaan een controle uitvoeren om te kijken of de JSONArray niet leeg is
-            if (bases != null) {
-                // we gaan van alle objecten in de JSONArray bases elk object appart ophalen om hier Base objecten van te maken
-                for (Object baseObject : bases) {
-                    JSONObject base = (JSONObject) baseObject;
-                    // we vullen de baseList met de Base objecten van het object poke
-                    baseList.add(new Base((String) base.get("name"), (int) (long) base.get("power")));
-                }
+            String[] types = new String[jobj.get("types").asJsonArray().size()];
+
+            for (JsonValue b : jobj.get("base").asJsonArray()) {
+                Base base = new Base(removeQuotes(b.asJsonObject().get("name").toString()), Integer.parseInt(b.asJsonObject().get("power").toString()));
+                baseList.add(base);
             }
-            // we kijken of de JSONArray niet leeg is
-            if (types != null){
-                typesArray = new String[types.size()];
-                // we gaan de String[] typesArray opvullen met de individuele waarden van de JSONArray die worden omgezet naar een String
-                for (int i = 0; i < types.size(); i++) {
-                    typesArray[i] = types.get(i).toString();
+
+            JsonArray typesArray = jobj.get("types").asJsonArray();
+            for (int i = 0; i < typesArray.size(); i++) {
+                    types[i] = removeQuotes(typesArray.get(i).toString());
                 }
-            }
-            // we maken een Pokemonobject om dit dan toe te voegen aan een lijst van Pokemon
-            pokemonList.add(new Pokemon((int) (long) jsonobj.get("id"), (String) jsonobj.get("name"), typesArray, baseList ));
+            Pokemon pokemon = new Pokemon(Integer.parseInt(jobj.get("id").toString()), removeQuotes(jobj.get("name").toString()), types, baseList);
+            pokemonList.add(pokemon);
         }
 
-        for (Pokemon poke:pokemonList) {
-            System.out.println(poke.getId());
-            System.out.println(poke.getName());
-            System.out.println(poke.getBase());
-            System.out.println(Arrays.toString(poke.getTypes()));
-        }
+        //System.out.println(pokemonList);
+        pokemonList.get(1).saySomething();
+        System.out.println(pokemonList.get(1).getClass().getName());
+        System.out.println(pokemonList.get(1).getId());
+        System.out.println(pokemonList.get(1).getName());
+        System.out.println(Arrays.stream(pokemonList.get(1).getTypes()).toList().toString());
+        System.out.println(pokemonList.get(1).getBase());
+    }
+
+        private static String removeQuotes (String input){
+            return input.substring(1, input.length() - 1);
     }
 }
