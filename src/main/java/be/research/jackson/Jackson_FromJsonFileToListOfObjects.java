@@ -14,20 +14,34 @@ public class Jackson_FromJsonFileToListOfObjects {
         try{
             ObjectMapper objectMapper = new ObjectMapper();
             List<Pokemon> pokemon = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_10.json").toFile(), Pokemon[].class));
-            pokemon.forEach(System.out::println);
+            // pokemon.forEach(System.out::println);
         } catch (IOException e){
             e.printStackTrace();
         }
-
-        System.out.println();
-
 
         try{
             ObjectMapper objectMapper = new ObjectMapper();
             List<Pokemon> pokemon = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_100.json").toFile(), Pokemon[].class));
-            pokemon.forEach(System.out::println);
+            // pokemon.forEach(System.out::println);
         } catch (IOException e){
             e.printStackTrace();
         }
+
+        try{
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<Pokemon> pokemon = Arrays.asList(objectMapper.readValue(Paths.get("src/assets/jackson/generated_1000Pokemon_Json.json").toFile(), Pokemon[].class));
+            // pokemon.forEach(System.out::println);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+        try{
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<Pokemon> pokemon = Arrays.asList(objectMapper.readValue(Paths.get("src/assets/jackson/generated_10000Pokemon_Json.json").toFile(), Pokemon[].class));
+            // pokemon.forEach(System.out::println);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
     }
 }
