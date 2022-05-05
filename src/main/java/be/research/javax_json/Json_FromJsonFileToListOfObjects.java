@@ -1,8 +1,7 @@
-package be.research.json;
+package be.research.javax_json;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
-import org.jetbrains.annotations.Async;
 
 import javax.json.*;
 import java.io.*;
@@ -10,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static be.research.json.Json_FromObjectToJsonFile.CreateJsonListFromPokemonObjects;
 import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
 
 public class Json_FromJsonFileToListOfObjects {

@@ -10,19 +10,18 @@ import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
 
 public class JacksonFromObjectListToJsonFile {
     public static void main(String[] args) {
+
         // Generate Pokemon lists
         List<Pokemon> pokemons_10 = GenerateListOfPokemons(10);
-        List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
-        List<Pokemon> pokemons_1000 = GenerateListOfPokemons(1000);
-        List<Pokemon> pokemons_10000 = GenerateListOfPokemons(10000);
-
+        // List<Pokemon> pokemons_100 = GenerateListOfPokemons(100);
+        //List<Pokemon> pokemons_1000 = GenerateListOfPokemons(1000);
+        //List<Pokemon> pokemons_10000 = GenerateListOfPokemons(10000);
         // From generated list to JSON file
         WriteJsonFile("src/assets/jackson/generated_10Pokemon_Json.json", pokemons_10);
-        WriteJsonFile("src/assets/jackson/generated_100Pokemon_Json.json", pokemons_100);
-        WriteJsonFile("src/assets/jackson/generated_1000Pokemon_Json.json", pokemons_1000);
-        WriteJsonFile("src/assets/jackson/generated_10000Pokemon_Json.json", pokemons_10000);
+        //WriteJsonFile("src/assets/jackson/generated_100Pokemon_Json.json", pokemons_100);
+        //WriteJsonFile("src/assets/jackson/generated_1000Pokemon_Json.json", pokemons_1000);
+        //WriteJsonFile("src/assets/jackson/generated_10000Pokemon_Json.json", pokemons_10000);
     }
-
     private static void WriteJsonFile(String source, List<Pokemon> pokemons) {
         ObjectMapper mapper = new ObjectMapper();
         try {

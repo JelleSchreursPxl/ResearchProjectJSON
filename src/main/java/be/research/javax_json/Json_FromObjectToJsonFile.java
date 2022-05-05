@@ -1,12 +1,10 @@
-package be.research.json;
+package be.research.javax_json;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
 
 import javax.json.*;
 import java.io.*;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;

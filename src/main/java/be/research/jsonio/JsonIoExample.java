@@ -19,20 +19,24 @@ public class JsonIoExample {
     private static final List<Pokemon> POKEMON_100 = GenerateListOfPokemons(100);
     private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
     private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
+
     private static final String POKEMON_JSON_FILE_PATH_10 = "src/assets/jsonio/generated_10Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_100 = "src/assets/jsonio/generated_100Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_1000 = "src/assets/jsonio/generated_1000Pokemons_Json.json";
+
+
     private static final String POKEMON_JSON_FILE_PATH_10000 = "src/assets/jsonio/generated_10000Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_10_WO_TYPE = "src/assets/jsonio/generated_10Pokemons_without_type.json";
     private static final String POKEMON_JSON_FILE_PATH_100_WO_TYPE = "src/assets/jsonio/generated_100Pokemons_without_type.json";
     private static final String POKEMON_JSON_FILE_PATH_1000_WO_TYPE = "src/assets/jsonio/generated_1000Pokemons_without_type.json";
+
     private static final String POKEMON_JSON_FILE_PATH_10000_WO_TYPE = "src/assets/jsonio/generated_10000Pokemons_without_type.json";
 
     public static void main(String[] args) throws Exception {
-        JsonIoObjectToJson(POKEMON_10000, POKEMON_JSON_FILE_PATH_10000);
-        JsonIoObjectToJsonWithoutTypes(POKEMON_10000, POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
-        JsonIoJsonToObject(POKEMON_JSON_FILE_PATH_10000);
-        JsonIoJsonWithoutTypesToObject(POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
+        JsonIoObjectToJson(POKEMON_10, POKEMON_JSON_FILE_PATH_10);
+        // JsonIoObjectToJsonWithoutTypes(POKEMON_10000, POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
+        // JsonIoJsonToObject(POKEMON_JSON_FILE_PATH_10000);
+        // JsonIoJsonWithoutTypesToObject(POKEMON_JSON_FILE_PATH_10000_WO_TYPE);
     }
 
     private static void JsonIoObjectToJson(List<Pokemon> pokemon, String path) {
@@ -59,7 +63,6 @@ public class JsonIoExample {
 
     private static void JsonIoJsonToObject(String path) throws Exception {
         String json = readFileAsString(path);
-
         // From json to object
         Object pkmJsonStrToObject = jsonToJava(json);
 
