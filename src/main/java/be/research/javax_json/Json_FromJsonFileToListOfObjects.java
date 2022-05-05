@@ -9,32 +9,19 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static be.research.utils.PokemonListGenerator.GenerateListOfPokemons;
-
 public class Json_FromJsonFileToListOfObjects {
 
-    private static final List<Pokemon> POKEMON_10 = GenerateListOfPokemons(10);
-    private static final List<Pokemon> POKEMON_100 = GenerateListOfPokemons(100);
-    private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
-    private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
-
-    private static final String READ_WITH_10_POKEMON = "src/assets/json/generated_10Pokemon_Json.json";
-    private static final String READ_WITH_100_POKEMON = "src/assets/json/generated_100Pokemon_Json.json";
-    private static final String READ_WITH_1000_POKEMON = "src/assets/json/generated_1000Pokemon_Json.json";
-    private static final String READ_WITH_10000_POKEMON = "src/assets/json/generated_10000Pokemon_Json.json";
+    private static final String READ_WITH_10_POKEMON = "src/assets/javax_json/generated_10Pokemon_Json.json";
+    private static final String READ_WITH_100_POKEMON = "src/assets/javax_json/generated_100Pokemon_Json.json";
+    private static final String READ_WITH_1000_POKEMON = "src/assets/javax_json/generated_1000Pokemon_Json.json";
+    private static final String READ_WITH_10000_POKEMON = "src/assets/javax_json/generated_10000Pokemon_Json.json";
 
     public static void main(String[] args) throws IOException {
 
-        //CreateJsonListFromPokemonObjects(POKEMON_10, READ_WITH_10_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_100, READ_WITH_100_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_1000, READ_WITH_1000_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_10000, READ_WITH_10000_POKEMON);
-
-
         WritePokemonObjectsToJsonFile(READ_WITH_10_POKEMON);
-        //WritePokemonObjectsToJsonFile(READ_WITH_100_POKEMON);
-        //WritePokemonObjectsToJsonFile(READ_WITH_1000_POKEMON);
-        //WritePokemonObjectsToJsonFile(READ_WITH_10000_POKEMON);
+        WritePokemonObjectsToJsonFile(READ_WITH_100_POKEMON);
+        WritePokemonObjectsToJsonFile(READ_WITH_1000_POKEMON);
+        WritePokemonObjectsToJsonFile(READ_WITH_10000_POKEMON);
     }
 
     static void WritePokemonObjectsToJsonFile(String readPokemonList) throws IOException

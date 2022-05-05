@@ -16,22 +16,17 @@ public class Json_FromObjectToJsonFile {
     private static final List<Pokemon> POKEMON_1000 = GenerateListOfPokemons(1000);
     private static final List<Pokemon> POKEMON_10000 = GenerateListOfPokemons(10000);
 
-    private static final String WRITE_WITH_10_POKEMON = "src/assets/json/generated_10Pokemon_Json.json";
-    private static final String WRITE_WITH_100_POKEMON = "src/assets/json/generated_100Pokemon_Json.json";
-    private static final String WRITE_WITH_1000_POKEMON = "src/assets/json/generated_1000Pokemon_Json.json";
-    private static final String WRITE_WITH_10000_POKEMON = "src/assets/json/generated_10000Pokemon_Json.json";
+    private static final String WRITE_WITH_10_POKEMON = "src/assets/javax_json/generated_10Pokemon_Json.json";
+    private static final String WRITE_WITH_100_POKEMON = "src/assets/javax_json/generated_100Pokemon_Json.json";
+    private static final String WRITE_WITH_1000_POKEMON = "src/assets/javax_json/generated_1000Pokemon_Json.json";
+    private static final String WRITE_WITH_10000_POKEMON = "src/assets/javax_json/generated_10000Pokemon_Json.json";
 
     public static void main(String[] args) {
 
         CreateJsonListFromPokemonObjects(POKEMON_10, WRITE_WITH_10_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_100, READ_WITH_100_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_1000, READ_WITH_1000_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_10000, READ_WITH_10000_POKEMON);
-
-        CreateJsonListFromPokemonObjects(POKEMON_10, WRITE_WITH_10_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_100, WRITE_WITH_100_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_1000, WRITE_WITH_1000_POKEMON);
-        //CreateJsonListFromPokemonObjects(POKEMON_10000, WRITE_WITH_10000_POKEMON);
+        CreateJsonListFromPokemonObjects(POKEMON_100, WRITE_WITH_100_POKEMON);
+        CreateJsonListFromPokemonObjects(POKEMON_1000, WRITE_WITH_1000_POKEMON);
+        CreateJsonListFromPokemonObjects(POKEMON_10000, WRITE_WITH_10000_POKEMON);
     }
 
     static void CreateJsonListFromPokemonObjects(List<Pokemon> pokemonList, String writeToLocation) {
