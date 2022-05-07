@@ -2,6 +2,7 @@
 research project jsonparsers
 
 <b>Introduction</b>
+
 Dutch
 Voorliggend researchpaper geeft een antwoord op de vraag hoe we een JSON parser kiezen bij het programmeren met de programmeertaal Java. JSON objecten worden in het algemeen standaard gebruikt voor het verzenden van gegevens in webapplicaties. Deze objecten zorgen voor snel en asynchroon gegevens te kunnen laden zonder de paginaweergave te vertragen.
 Het parsen van JSON objecten kan in verschillende programmeertalen toegepast worden. Dit zorgde voor een grote keuze aan programmeertalen om een parser te kiezen. Na een controle bleek dat de programmeertaal Java het meest ontwikkeld was bij de onderzoekers. Om die reden is er gekozen om het onderzoek te voeren naar een JSON parser in de programmeertaal Java.
@@ -15,6 +16,7 @@ We then checked whether there is already material available for parsing JSON obj
 Making a choice is not easy. In what ways are they similar and different from each other? Which properties are decisive for choosing a JSON parser.
 
 <b>Research paper </b>
+
 Dutch
 Het research paper kan gevonden worden op deze GitHub.
 
