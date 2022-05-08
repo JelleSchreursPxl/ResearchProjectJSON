@@ -1,141 +1,141 @@
 [ {
   "id" : 1,
-  "name" : "larvitar",
-  "types" : [ "grass" ],
+  "name" : "skiploom",
+  "types" : [ "flying" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 71
+    "power" : 153
   }, {
     "name" : "Attack",
-    "power" : 159
+    "power" : 79
   }, {
     "name" : "Defense",
-    "power" : 68
+    "power" : 192
   } ]
 }, {
   "id" : 2,
-  "name" : "melmetal",
-  "types" : [ "poison" ],
+  "name" : "minior",
+  "types" : [ "fairy" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 36
+    "power" : 110
   }, {
     "name" : "Attack",
-    "power" : 4
+    "power" : 15
   }, {
     "name" : "Defense",
-    "power" : 43
+    "power" : 72
   } ]
 }, {
   "id" : 3,
-  "name" : "hakamoo",
-  "types" : [ "grass", "fairy" ],
+  "name" : "machamp",
+  "types" : [ "ghost", "fighting" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 176
+    "power" : 132
   }, {
     "name" : "Attack",
-    "power" : 99
+    "power" : 56
   }, {
     "name" : "Defense",
-    "power" : 167
+    "power" : 193
   } ]
 }, {
   "id" : 4,
-  "name" : "murkrow",
-  "types" : [ "dark" ],
+  "name" : "charmeleon",
+  "types" : [ "dragon" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 144
+    "power" : 94
   }, {
     "name" : "Attack",
-    "power" : 136
+    "power" : 69
   }, {
     "name" : "Defense",
-    "power" : 77
+    "power" : 166
   } ]
 }, {
   "id" : 5,
-  "name" : "virizion",
-  "types" : [ "ghost" ],
+  "name" : "vaporeon",
+  "types" : [ "fairy" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 8
+    "power" : 70
   }, {
     "name" : "Attack",
-    "power" : 13
+    "power" : 154
   }, {
     "name" : "Defense",
-    "power" : 0
+    "power" : 20
   } ]
 }, {
   "id" : 6,
-  "name" : "nagikarp",
-  "types" : [ "electric", "ground" ],
+  "name" : "slurpuff",
+  "types" : [ "ghost", "water" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 57
+    "power" : 165
   }, {
     "name" : "Attack",
-    "power" : 146
+    "power" : 129
   }, {
     "name" : "Defense",
-    "power" : 173
+    "power" : 195
   } ]
 }, {
   "id" : 7,
-  "name" : "venonath",
-  "types" : [ "poison" ],
+  "name" : "mareanie",
+  "types" : [ "ghost" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 90
+    "power" : 193
   }, {
     "name" : "Attack",
-    "power" : 108
+    "power" : 100
   }, {
     "name" : "Defense",
-    "power" : 36
+    "power" : 135
   } ]
 }, {
   "id" : 8,
-  "name" : "gabite",
-  "types" : [ "psychic" ],
+  "name" : "giratina",
+  "types" : [ "normal" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 179
+    "power" : 121
   }, {
     "name" : "Attack",
-    "power" : 59
+    "power" : 33
   }, {
     "name" : "Defense",
-    "power" : 158
+    "power" : 11
   } ]
 }, {
   "id" : 9,
-  "name" : "druddigon",
-  "types" : [ "poison", "electric" ],
+  "name" : "porygon",
+  "types" : [ "grass", "flying" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 39
+    "power" : 127
   }, {
     "name" : "Attack",
-    "power" : 30
+    "power" : 89
   }, {
     "name" : "Defense",
-    "power" : 184
+    "power" : 2
   } ]
 }, {
   "id" : 10,
-  "name" : "celesteela",
-  "types" : [ "bug" ],
+  "name" : "milotic",
+  "types" : [ "fire" ],
   "base" : [ {
     "name" : "HP",
-    "power" : 125
+    "power" : 101
   }, {
     "name" : "Attack",
-    "power" : 24
+    "power" : 22
   }, {
     "name" : "Defense",
-    "power" : 5
+    "power" : 116
   } ]
 } ]
