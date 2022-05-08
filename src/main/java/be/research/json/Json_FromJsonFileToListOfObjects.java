@@ -2,7 +2,6 @@ package be.research.json;
 
 import be.research.domain.Base;
 import be.research.domain.Pokemon;
-import org.jetbrains.annotations.Async;
 
 import javax.json.*;
 import java.io.*;
@@ -27,20 +26,19 @@ public class Json_FromJsonFileToListOfObjects {
 
     public static void main(String[] args) throws IOException {
 
-        //CreateJsonListFromPokemonObjects(POKEMON_10, READ_WITH_10_POKEMON);
+        CreateJsonListFromPokemonObjects(POKEMON_10, READ_WITH_10_POKEMON);
         //CreateJsonListFromPokemonObjects(POKEMON_100, READ_WITH_100_POKEMON);
         //CreateJsonListFromPokemonObjects(POKEMON_1000, READ_WITH_1000_POKEMON);
         //CreateJsonListFromPokemonObjects(POKEMON_10000, READ_WITH_10000_POKEMON);
 
 
-        WritePokemonObjectsToJsonFile(READ_WITH_10_POKEMON);
+        ReadJsonFileToPokemonObjects(READ_WITH_10_POKEMON);
         //WritePokemonObjectsToJsonFile(READ_WITH_100_POKEMON);
         //WritePokemonObjectsToJsonFile(READ_WITH_1000_POKEMON);
         //WritePokemonObjectsToJsonFile(READ_WITH_10000_POKEMON);
     }
 
-    static void WritePokemonObjectsToJsonFile(String readPokemonList) throws IOException
-    {
+    static void ReadJsonFileToPokemonObjects(String readPokemonList) throws IOException {
         InputStream fileInputStream = new FileInputStream(readPokemonList);
         JsonReader jsonReader = Json.createReader(fileInputStream);
         JsonArray jsonObjects = jsonReader.readArray();
@@ -55,28 +53,24 @@ public class Json_FromJsonFileToListOfObjects {
             String[] types = new String[jobj.get("types").asJsonArray().size()];
 
             for (JsonValue b : jobj.get("base").asJsonArray()) {
-                Base base = new Base(removeQuotes(b.asJsonObject().get("name").toString()), Integer.parseInt(b.asJsonObject().get("power").toString()));
+                Base base = new Base(
+                        removeQuotes(b.asJsonObject().get("name").toString()),
+                        Integer.parseInt(b.asJsonObject().get("power").toString()));
                 baseList.add(base);
             }
 
             JsonArray typesArray = jobj.get("types").asJsonArray();
             for (int i = 0; i < typesArray.size(); i++) {
-                    types[i] = removeQuotes(typesArray.get(i).toString());
-                }
-            Pokemon pokemon = new Pokemon(Integer.parseInt(jobj.get("id").toString()), removeQuotes(jobj.get("name").toString()), types, baseList);
+                types[i] = removeQuotes(typesArray.get(i).toString());
+            }
+            Pokemon pokemon = new Pokemon(
+                    Integer.parseInt(jobj.get("id").toString()),
+                    removeQuotes(jobj.get("name").toString()), types, baseList);
             pokemonList.add(pokemon);
         }
-
-        //System.out.println(pokemonList);
-        pokemonList.get(1).saySomething();
-        System.out.println(pokemonList.get(1).getClass().getName());
-        System.out.println(pokemonList.get(1).getId());
-        System.out.println(pokemonList.get(1).getName());
-        System.out.println(Arrays.stream(pokemonList.get(1).getTypes()).toList().toString());
-        System.out.println(pokemonList.get(1).getBase());
     }
 
-        private static String removeQuotes (String input){
-            return input.substring(1, input.length() - 1);
+    private static String removeQuotes(String input) {
+        return input.substring(1, input.length() - 1);
     }
 }
