@@ -19,10 +19,14 @@ public class Gson_FromJsonFileToListOfObjects {
      */
     public static void main(String[] args) {
         String jsonFile10Pokemons ="src/assets/gson/generated_10Pokemon_Json.json";
-        String jsonFile100Pokemons ="src/assets/gson/generated_100Pokemon_Json.json";
+        // String jsonFile100Pokemons ="src/assets/gson/generated_100Pokemon_Json.json";
+        // String jsonFile1000Pokemons ="src/assets/gson/generated_1000Pokemon_Json.json";
+        // String jsonFile10000Pokemons ="src/assets/gson/generated_10000Pokemon_Json.json";
 
         List<Pokemon> pokemons_10 = GsonDeserialization(jsonFile10Pokemons);
-        List<Pokemon> pokemons_100 = GsonDeserialization(jsonFile100Pokemons);
+        // List<Pokemon> pokemons_100 = GsonDeserialization(jsonFile100Pokemons);
+        // List<Pokemon> pokemons_1000 = GsonDeserialization(jsonFile1000Pokemons);
+        // List<Pokemon> pokemons_10000 = GsonDeserialization(jsonFile10000Pokemons);
     }
 
 
