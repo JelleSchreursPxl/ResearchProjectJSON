@@ -10,7 +10,12 @@ import java.util.List;
 
 public class Jackson_FromJsonFileToListOfObjects {
     public static void main(String[] args) {
-        // From JSON file to Pokemon objects
+        /**
+         * Every try-catch block contains a deserialisation
+         * This makes use of the ObjectMapper class
+         * Giving it a Path to get as a file and read it in as a value to the ObjectMapper
+         * This is then compared to the expected class and given back as an array but changed to a list
+         */
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             List<Pokemon> pokemon = Arrays.asList(objectMapper.readValue(Paths.get("src/main/resources/pokemon_10.json").toFile(), Pokemon[].class));
