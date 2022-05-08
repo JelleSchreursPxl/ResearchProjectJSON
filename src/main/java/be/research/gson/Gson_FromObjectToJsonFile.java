@@ -27,7 +27,7 @@ public class Gson_FromObjectToJsonFile {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
 
-        try (FileWriter writer = new FileWriter("src/assets/gson/generated_1Pokemon_Json.json")){
+        try (FileWriter writer = new FileWriter("src/assets/gson/generated_1Pokemon_Json.json")) {
             writer.write(gson.toJson(pikachu));
         } catch (IOException e) {
             throw new RuntimeException(e);

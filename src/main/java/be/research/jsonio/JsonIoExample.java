@@ -23,13 +23,11 @@ public class JsonIoExample {
     private static final String POKEMON_JSON_FILE_PATH_10 = "src/assets/jsonio/generated_10Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_100 = "src/assets/jsonio/generated_100Pokemons_Json.json";
     private static final String POKEMON_JSON_FILE_PATH_1000 = "src/assets/jsonio/generated_1000Pokemons_Json.json";
-
-
     private static final String POKEMON_JSON_FILE_PATH_10000 = "src/assets/jsonio/generated_10000Pokemons_Json.json";
+
     private static final String POKEMON_JSON_FILE_PATH_10_WO_TYPE = "src/assets/jsonio/generated_10Pokemons_without_type.json";
     private static final String POKEMON_JSON_FILE_PATH_100_WO_TYPE = "src/assets/jsonio/generated_100Pokemons_without_type.json";
     private static final String POKEMON_JSON_FILE_PATH_1000_WO_TYPE = "src/assets/jsonio/generated_1000Pokemons_without_type.json";
-
     private static final String POKEMON_JSON_FILE_PATH_10000_WO_TYPE = "src/assets/jsonio/generated_10000Pokemons_without_type.json";
 
     public static void main(String[] args) throws Exception {
@@ -73,9 +71,11 @@ public class JsonIoExample {
         String json_wo_types = readFileAsString(path);
 
         // From json without types to object
-        Object pkmJsonStrToObject_wo_types =  jsonToJava(json_wo_types);
+        Object pkmJsonStrToObject_wo_types = jsonToJava(json_wo_types);
 
-        System.out.println(pkmJsonStrToObject_wo_types);
+        for (Object pkmJsonStrToObject_wo_type : ((Object[]) pkmJsonStrToObject_wo_types)) {
+            System.out.println(pkmJsonStrToObject_wo_type.toString());
+        }
     }
 
     private static void JsonIoWriter(String s, String path) {
@@ -86,8 +86,7 @@ public class JsonIoExample {
         }
     }
 
-    public static String readFileAsString(String file)throws Exception
-    {
+    public static String readFileAsString(String file) throws Exception {
         return new String(Files.readAllBytes(Paths.get(file)));
     }
 }

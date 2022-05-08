@@ -4,7 +4,7 @@ public class Base {
     private String name;
     private int power;
 
-    public Base(){
+    public Base() {
 
     }
 
@@ -16,12 +16,15 @@ public class Base {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public int getPower() {
         return power;
     }
+
     public void setPower(int power) {
         this.power = power;
     }

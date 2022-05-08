@@ -37,11 +37,11 @@ public class PokemonListGenerator {
         return pokemonStats;
     }
 
-    private static String randomName(){
+    private static String randomName() {
         return PokemonNames.values()[new Random().nextInt(PokemonNames.values().length)].toString().toLowerCase();
     }
 
-    private static String randomType(){
+    private static String randomType() {
         return Types.values()[new Random().nextInt(Types.values().length)].toString().toLowerCase();
     }
 

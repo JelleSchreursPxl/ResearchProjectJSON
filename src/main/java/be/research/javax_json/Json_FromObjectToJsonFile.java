@@ -34,7 +34,7 @@ public class Json_FromObjectToJsonFile {
         for (Pokemon pokemon : pokemonList) {
 
             JsonArrayBuilder typeBuilder = Json.createArrayBuilder();
-            for (String type:pokemon.getTypes()) {
+            for (String type : pokemon.getTypes()) {
                 typeBuilder.add(type);
             }
 

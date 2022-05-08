@@ -9,8 +9,8 @@ import java.io.IOException;
 public class Json {
     private static ObjectMapper objectMapper = getDefaultObjectMapper();
 
-    private static ObjectMapper getDefaultObjectMapper(){
-        ObjectMapper defaultObjectMapper =  new ObjectMapper();
+    private static ObjectMapper getDefaultObjectMapper() {
+        ObjectMapper defaultObjectMapper = new ObjectMapper();
         defaultObjectMapper.registerModule(new JavaTimeModule());
         defaultObjectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         return defaultObjectMapper;
@@ -24,7 +24,7 @@ public class Json {
         return objectMapper.treeToValue(node, aClass);
     }
 
-    public static JsonNode toJson(Object object){
+    public static JsonNode toJson(Object object) {
         return objectMapper.valueToTree(object);
     }
 
@@ -38,7 +38,7 @@ public class Json {
 
     private static String getoutlinedPrint(JsonNode node, boolean outlined) throws JsonProcessingException {
         ObjectWriter objectWriter = objectMapper.writer();
-        if(outlined) {
+        if (outlined) {
             objectWriter = objectWriter.with(SerializationFeature.INDENT_OUTPUT);
         }
         return objectWriter.writeValueAsString(node);

@@ -9,7 +9,7 @@ public class Pokemon {
     private String[] types;
     private List<Base> base;
 
-    public Pokemon(){
+    public Pokemon() {
 
     }
 

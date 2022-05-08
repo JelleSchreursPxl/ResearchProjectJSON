@@ -18,7 +18,7 @@ public class Gson_FromJsonFileToListOfObjects {
      * 2) Creating 2 Lists filled with Pokemons using a Deserialization method
      */
     public static void main(String[] args) {
-        String jsonFile10Pokemons ="src/assets/gson/generated_10Pokemon_Json.json";
+        String jsonFile10Pokemons = "src/assets/gson/generated_10Pokemon_Json.json";
         // String jsonFile100Pokemons ="src/assets/gson/generated_100Pokemon_Json.json";
         // String jsonFile1000Pokemons ="src/assets/gson/generated_1000Pokemon_Json.json";
         // String jsonFile10000Pokemons ="src/assets/gson/generated_10000Pokemon_Json.json";
@@ -32,6 +32,7 @@ public class Gson_FromJsonFileToListOfObjects {
 
     /**
      * Creating a Gson-Object to read a JSON file to a list of Pokemon-Objects
+     *
      * @param location a string that represents a path where the file can be found
      * @return a list filled with Pokemon Objects converted from a JSON file
      */
@@ -52,6 +53,7 @@ public class Gson_FromJsonFileToListOfObjects {
             System.out.println(e.getMessage());
         }
 
-        return gson.fromJson(sb.toString(), new TypeToken<List<Pokemon>>(){}.getType());
+        return gson.fromJson(sb.toString(), new TypeToken<List<Pokemon>>() {
+        }.getType());
     }
 }

@@ -36,14 +36,15 @@ public class Gson_FromObjectListToJsonFile {
     /**
      * Creating Gson-Object to write Objects to a JSON file
      * FileWriter makes use of a Try-Catch-block with resources to close the writer when the job is finished
+     *
      * @param location a path where to write the file
      * @param pokemons a list with Pokemon Objects
      */
-    private static void GsonWriteJsonFile(String location, List<Pokemon> pokemons){
+    private static void GsonWriteJsonFile(String location, List<Pokemon> pokemons) {
         GsonBuilder builder = new GsonBuilder();
         Gson gson = builder.create();
 
-        try (FileWriter writer = new FileWriter(location)){
+        try (FileWriter writer = new FileWriter(location)) {
             writer.write(gson.toJson(pokemons));
         } catch (IOException e) {
             throw new RuntimeException(e);

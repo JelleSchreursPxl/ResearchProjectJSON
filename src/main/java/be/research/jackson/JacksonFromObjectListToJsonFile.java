@@ -22,6 +22,7 @@ public class JacksonFromObjectListToJsonFile {
         //WriteJsonFile("src/assets/jackson/generated_1000Pokemon_Json.json", pokemons_1000);
         //WriteJsonFile("src/assets/jackson/generated_10000Pokemon_Json.json", pokemons_10000);
     }
+
     private static void WriteJsonFile(String source, List<Pokemon> pokemons) {
         ObjectMapper mapper = new ObjectMapper();
         try {
